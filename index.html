@@ -8,6 +8,12 @@
 
     <title>Sumonta's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
@@ -17,12 +23,12 @@
                 <img src="images/cover.png" class="logo" width="300">
 
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Photographs</a></li>
-                    <li><a href="">Achievements</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#photographs">Photographs</a></li>
+                    <li><a href="#Achievements">Achievements</a></li>
+                    <li><a href="#contactme">Contact</a></li>
                 </ul>
             </nav>
 
@@ -434,7 +440,7 @@
 
         <!-- Photographs Section -->
         <div id="photographs">
-            <h1 class="sub-project">My Photographs</h1>
+            <h1 class="sub-project">Photography</h1>
             <div class="pos_Set">
                 <div class="slider" onclick="window.location.href = 'https://www.instagram.com/_sumonta_saha_/';">
                     <span style="--i:1;"><img class="scales" src="images/1.jpg"></span>
@@ -451,8 +457,6 @@
                     <span style="--i:12;"><img class="scales" src="images/12.jpg"></span>
 
                 </div>
-
-
             </div>
             <div class="follow">
                 <p align='center'>
@@ -462,35 +466,229 @@
                     <a href="https://www.instagram.com/_sumonta_saha_/" target="blank"><img
                             src="https://i.postimg.cc/Qd6Y0W2r/button.png" /></a>
                 </p>
+            </div>
+
+            <!-- Achievements  ShowCase -->
+            <div id="Achievements">
+                <h1 class="sub-project">Achievements</h1>
+                <div class="achievement1">
+                    <div class="cards">
+                        <div class="image-content">
+                            <span class="overlay">
+
+                            </span>
+
+                            <div class="card-image">
+                                <img src="images/hacka.jpg" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Brainstation 23 Hackathon</h2>
+                            <p class="description">Participate in Brainstation 23 Hackathon in Orbitax
+                                SUST SWE Technovent 2023 Powered by DSI <br>
+
+                                - Leader of the Team ( Team CTH ) <br>
+                                - Made it to top 9 among 90+ teams<br>
+                                - Worked as volunteer of the event
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cards1">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="images/ps.jpg" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">800+ Problems Solved</h2>
+                            <p class="description">Solved more than 800 problems in various platform <br>
+
+                                - Newbie - Codeforces (Rank: 1049) <br>
+                                - 3 Star - CodeChef (Country Rank - 1167)<br>
+                                - Problem solved in LeetCode, AtCoder
+                            </p>
+                            <button class="button"
+                                onclick="window.location.href = 'https://www.stopstalk.com/user/profile/sumonta056';">
+                                <span class="button_lg">
+                                    <span class="button_sl"></span>
+                                    <span class="button_text">read more </span>
+                                </span>
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="cards3">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="images/sc.png" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Scholar-Ships</h2>
+
+                            <ul class="descriptions">
+                                <li>Secondary School Certificate (SSC) Scholarship - 2017
+
+                                    ( Talent Pool
+                                    8th Position in Narayanganj District )
+
+
+                                </li>
+                                <li>Junior School Certificate (JSC) Scholarship - 2014</li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="achievement1">
+                    <div class="card11">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="images/pg.jpg" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Photography Exhibition</h2>
+                            <p class="description">My photo got selected for final round of (among 150+ photos) Photo
+                                Exhibition in exCEEd Manifestation
+                                Organized by Department of Civil and Environmental Engineering(CEE), SUST <br>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card12">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="images/pp.jpg" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Poster Presentation</h2>
+                            <p class="description"> Won 2nd price in Intra School Dewalika Competition
+                                ( Poster Presentation ) Organized by Narayanganj Ideal School
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card13">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="images/cs.jpg" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Coming Soon</h2>
+
+                            <ul class="descriptions">
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
 
             </div>
 
 
 
-        </div>
+            <!-- Photographs Section -->
+
+            <!-- contact me -->
+            <div id="contactme">
+                <section class="contact">
+                    <div class="contact-form">
+                        <h1>Contact <span class="us">Me</spanc>
+                        </h1>
+                        <p>I am available for work. Connect with wih me via phone: 018XXXXXXX or
+                            email: sumonta80@gmail.com
+                        </p>
+                        <form action="https://formspree.io/f/mknabrlj" method="POST">
+                            <input type="name" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" id="" placeholder="E-mail" required>
+                            <input type="subject" placeholder="Write a Subject" required>
+                            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                            <button class="btn">Submit</button>
+                        </form>
+
+                    </div>
+                    <div class="contact-img">
+                        <img class="check" src="images/contact.jpg">
+                    </div>
+                </section>
+            </div>
+
+            <!-- contact me -->
+            <div class="Social">
+                <div class="wrappeer">
+                    <div class="icon facebook">
+                        <div class="tooltip">Facebook</div>
+                        <span><i class="fab fa-facebook-f"></i> </span>
+                    </div>
+                    <div class="icon instagram">
+                        <div class="tooltip">Instagram</div>
+                        <span><i class="fab fa-instagram"></i> </span>
+                    </div>
+                    <div class="icon twitter">
+                        <div class="tooltip">Twitter</div>
+                        <span><i class="fab fa-twitter"></i> </span>
+                    </div>
+                    <div class="icon github">
+                        <div class="tooltip">GitHub</div>
+                        <span><i class="fab fa-github"></i> </span>
+                    </div>
+                    <div class="icon linkedin">
+                        <div class="tooltip">Linkedin</div>
+                        <span><i class="fab fa-linkedin"></i> </span>
+                    </div>
+                    <div class="icon youtube">
+                        <div class="tooltip">YouTube</div>
+                        <span><i class="fab fa-youtube"></i> </span>
+                    </div>
+
+                </div>
+
+                <div class = "cv">
+                    <button class="button"
+                        onclick="window.location.href = 'https://drive.google.com/file/d/1kLgjjzp-QV0_T0wh7G2JMoD9wPOvtpkG/view?usp=sharing';">
+                        <span class="button_lg">
+                            <span class="button_sl"></span>
+                            <span class="button_text">Download My CV</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <div class = "end">
+                    <p>© 2023 Sumonta Saha Mriduk. All rights reserved.</p>
+            </div>
 
 
-        <!-- Photographs Section -->
 
-        <!-- about section -->
-        <script>
-            var tablinks = document.getElementsByClassName("tab-links");
-            var tabcontents = document.getElementsByClassName("tab-contents");
+            <!-- about section -->
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
 
-            function opentab(tabname) {
-                for (tablink of tablinks) {
-                    tablink.classList.remove("active-link");
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+
                 }
-
-                for (tabcontent of tabcontents) {
-                    tabcontent.classList.remove("active-tab");
-                }
-                event.currentTarget.classList.add("active-link");
-                document.getElementById(tabname).classList.add("active-tab");
-
-            }
-        </script>
-        <!-- about section -->
+            </script>
+            <!-- about section -->
 </body>
 
 </html>
