@@ -82,7 +82,12 @@ nav ul li a:hover::after {
 
 }
 
+.setdiv{
+  padding-top: 60px;
+}
+
 .header-text h1 {
+
   font-size: 100px;
 }
 
@@ -91,7 +96,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h2 {
-  font-size: 70px;
+  font-size: 74px;
 }
 
 .loader {
@@ -100,8 +105,7 @@ nav ul li a:hover::after {
   height: 40px;
   background: #fff;
   border-radius: 100px;
-  margin-left: 1187px;
-  margin-bottom: 20px;
+  float: right;
 }
 
 .loader::before {
@@ -154,10 +158,8 @@ nav ul li a:hover::after {
   height: 40px;
   background: #fff;
   border-radius: 100px;
-  margin-left: 1288px;
-  margin-top: -59px;
-  margin-bottom: 20px;
-  
+  float: right;
+
 }
 
 .loaader::before {
@@ -1007,7 +1009,7 @@ photographs section */
 
 .card11 {
   width: 450px;
-  height: 540px;
+  height: 610px;
   border-radius: 40px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
@@ -1021,7 +1023,7 @@ photographs section */
 
 .card12 {
   width: 450px;
-  height: 540px;
+  height: 610px;
   border-radius: 40px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
@@ -1035,8 +1037,7 @@ photographs section */
 
 .card13 {
   width: 450px;
-  height: 540px;
-  ;
+  height: 610px;
   border-radius: 40px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
@@ -1189,8 +1190,8 @@ form textarea {
   width: 100%;
   place-items: center;
   margin-bottom: 100px;
-  
-  
+
+
 }
 
 .wrappeer {
@@ -1207,6 +1208,7 @@ form textarea {
   position: relative;
   z-index: 3;
   cursor: pointer;
+  color: #000;
 }
 
 .wrappeer .icon span {
@@ -1226,7 +1228,8 @@ form textarea {
 
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
-.wrappeer .icon:hover span i{
+
+.wrappeer .icon:hover span i {
   color: #fff;
 }
 
@@ -1249,13 +1252,14 @@ form textarea {
   -o-border-radius: 30px;
   opacity: 0;
   pointer-events: none;
-  transition: all 0.3s cubic-bezier(0,68 , -0.55,0.265,1.55);
-  -webkit-transition: all 0.3s cubic-bezier(0,68 , -0.55,0.265,1.55);
-  -moz-transition: all 0.3s cubic-bezier(0,68 , -0.55,0.265,1.55);
-  -ms-transition: all 0.3s cubic-bezier(0,68 , -0.55,0.265,1.55);
-  -o-transition: all 0.3s cubic-bezier(0,68 , -0.55,0.265,1.55);
+  transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
+  -moz-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
+  -ms-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
+  -o-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
 }
-.wrappeer .icon:hover .tooltip{
+
+.wrappeer .icon:hover .tooltip {
 
   top: -70px;
   opacity: 1;
@@ -1278,62 +1282,177 @@ form textarea {
 
 .wrappeer .icon:hover span,
 .wrappeer .icon:hover .tooltip {
- 
+
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
 
 .wrappeer .facebook:hover span,
 .wrappeer .facebook:hover .tooltip,
 .wrappeer .facebook:hover .tooltip::before {
- 
+
   background: #3b5999;
+  color: #ffffff;
 }
 
 .wrappeer .instagram:hover span,
 .wrappeer .instagram:hover .tooltip,
 .wrappeer .instagram:hover .tooltip::before {
- 
+
   background: #e1306c;
+  color: #ffffff;
 }
 
 .wrappeer .twitter:hover span,
 .wrappeer .twitter:hover .tooltip,
 .wrappeer .twitter:hover .tooltip::before {
- 
+
   background: #46c1f6;
+  color: #ffffff;
 }
 
 .wrappeer .github:hover span,
 .wrappeer .github:hover .tooltip,
 .wrappeer .github:hover .tooltip::before {
- 
+
   background: #333;
+  color: #ffffff;
 }
 
 .wrappeer .linkedin:hover span,
 .wrappeer .linkedin:hover .tooltip,
 .wrappeer .linkedin:hover .tooltip::before {
- 
+
   background: #1b4fbe;
+  color: #ffffff;
 }
 
 
 .wrappeer .youtube:hover span,
 .wrappeer .youtube:hover .tooltip,
 .wrappeer .youtube:hover .tooltip::before {
- 
+
   background: #b91616;
+  color: #ffffff;
 }
 
-.cv{
+.cv {
 
   margin-top: 30px;
 }
 
-.end{
+.end {
   align-items: center;
   justify-content: center;
   text-align: center;
   margin-bottom: 50px;
   margin-top: -70px;
 }
+
+
+@media (min-width: 1610px) and (max-width: 3000px) {
+
+  .header-text h1 {
+
+    padding-top: 20px;
+
+    font-size: 130px;
+  }
+
+  header-text h2 {
+    font-size: 84px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+  body{
+
+    width: 96%;
+    margin-left: 20px;
+    
+  }
+
+
+  .header-text h1 {
+
+    padding-top: 10px;
+
+    font-size: 83px;
+  }
+
+  .header-text h2 {
+    font-size: 75px;
+    margin-top: -30px;
+  }
+
+  .loader{
+  
+    margin-top: -30px;
+  }
+  .loaader{
+  
+    margin-top: -30px;
+  }
+
+ .wrapper{
+  margin-left: -22px;
+ }
+
+ 
+ .pos_Set{
+
+  padding-top: 70px;
+ }
+  
+ .follow{
+
+  padding-top: 70px;
+ }
+
+ .achievement1{
+
+  padding-top: 20px;
+ }
+
+ .name {
+  font-size: 23px;
+  font-weight: 700;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #000000;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.descriptions {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #000000;
+  line-height: 35px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+ 
+.card-image {
+  position: relative;
+  margin-left: 30px;
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+}
+
