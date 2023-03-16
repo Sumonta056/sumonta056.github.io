@@ -108,8 +108,8 @@ nav ul li a:hover::after {
     background-image: url(lands/l1.jpg);
     background-size: 100% 100%;
     box-shadow: 2px 3px 10px 5px rgb(30, 30, 31);
-    animation: slider 40s infinite linear;
-    -webkit-animation: slider 40s infinite linear;
+    animation: slider 60s infinite linear;
+    -webkit-animation: slider 60s infinite linear;
     -webkit-transform: translate(-12%, -50%);
     -moz-transform: translate(-12%, -50%);
     -ms-transform: translate(-12%, -50%);
@@ -122,43 +122,31 @@ nav ul li a:hover::after {
         background-image: url(lands/l1.jpg);
     }
 
-    5% {
+    6% {
         background-image: url(lands/l3.jpg);
     }
 
-    10% {
+    12% {
         background-image: url(lands/l4.jpg);
     }
 
-    15% {
-        background-image: url(lands/l5.jpg);
-    }
-
-    20% {
-        background-image: url(lands/l6.jpg);
-    }
-
-    24% {
-        background-image: url(lands/l8.jpg);
-    }
-
-    28% {
+    18% {
         background-image: url(lands/l9.jpg);
     }
 
-    32% {
+    24% {
         background-image: url(lands/l11.jpg);
     }
 
-    36% {
+    30% {
         background-image: url(lands/l12.jpg);
     }
 
-    40% {
+    36% {
         background-image: url(lands/l13.jpg);
     }
 
-    44% {
+    42% {
         background-image: url(lands/l14.jpg);
     }
 
@@ -166,43 +154,31 @@ nav ul li a:hover::after {
         background-image: url(lands/l15.jpg);
     }
 
-    52% {
+    54% {
         background-image: url(lands/l16.jpg);
     }
 
-    56% {
+    60% {
         background-image: url(lands/l17.jpg);
     }
 
-    60% {
-        background-image: url(lands/l19.jpg);
-    }
-
-    65% {
+    70% {
         background-image: url(lands/l20.jpg);
     }
 
-    70% {
-        background-image: url(lands/l23.jpg);
-    }
-
-    75% {
+    76% {
         background-image: url(lands/l24.jpg);
     }
 
-    80% {
-        background-image: url(lands/l25.jpg);
-    }
-
-    85% {
+    82% {
         background-image: url(lands/l26.jpg);
     }
 
-    90% {
+    88% {
         background-image: url(lands/l27.jpg);
     }
 
-    95% {
+    100% {
         background-image: url(lands/l28.jpg);
     }
 
@@ -423,7 +399,7 @@ nav ul li a:hover::after {
     color: #235f70;
     padding-top: 60px;
     margin-bottom: 40px;
-  
+
 
 }
 
@@ -442,7 +418,7 @@ nav ul li a:hover::after {
     align-items: end;
     margin-top: 30px;
     position: absolute;
-} 
+}
 
 
 .button {
@@ -671,7 +647,7 @@ nav ul li a:hover::after {
 
     }
 
-    .mandiv{
+    .mandiv {
         width: 680px;
         height: 440px;
     }
@@ -686,9 +662,9 @@ nav ul li a:hover::after {
         padding-top: 50px;
         font-size: 17px;
         line-height: 20px;
-    
+
     }
-    
+
     .header-text h1 {
         font-size: 62px;
         text-align: right;
@@ -696,7 +672,7 @@ nav ul li a:hover::after {
 
     .col-2 img {
         width: 450px;
-    
+
         border-radius: 15px;
         -webkit-border-radius: 15px;
         -moz-border-radius: 15px;
@@ -709,18 +685,18 @@ nav ul li a:hover::after {
         line-height: 50px;
         font-size: 17px;
     }
-    
-    
+
+
     .name {
         font-size: 55px;
         font-weight: 600;
         color: #235f70;
         padding-top: 60px;
         margin-bottom: 40px;
-      
-    
+
+
     }
-    
+
     .names {
         padding-top: 50px;
         font-size: 80px;
@@ -728,14 +704,13 @@ nav ul li a:hover::after {
         color: #ababab;
         margin-bottom: 0px;
         text-align: center;
-    
+
     }
 
-    #Achievements{
+    #Achievements {
         margin-right: -30px;
         padding-left: 30px;
     }
-    
+
 
 }
-
