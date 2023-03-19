@@ -33,13 +33,19 @@ body {
   padding: 2px 4%;
 
 }
+.containers {
 
-nav {
+  padding: 2px 4%;
+
+}
+
+nav{
 
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  
 }
 
 nav ul li {
@@ -1379,7 +1385,7 @@ form textarea {
   justify-content: center;
   padding: 15px 75px;
   background: #3c94c7;
-  margin-left: 590px;
+  margin-left: 580px;
   margin-top: -50px;
   font-size: 30px;
   text-align: center;
@@ -1522,6 +1528,17 @@ form textarea {
     width: 96%;
     margin-left: 20px;
 
+  }
+
+  .container {
+
+    padding: 2px 2%;
+  
+  }
+  .containers {
+
+    padding: 2px 4%;
+  
   }
 
 

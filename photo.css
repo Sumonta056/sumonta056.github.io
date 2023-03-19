@@ -31,8 +31,13 @@ h1 {
 .container {
 
     padding: 2px 4%;
-
-}
+  
+  }
+  .containers {
+  
+    padding: 2px 4%;
+  
+  }
 
 nav {
 
@@ -646,6 +651,17 @@ nav ul li a:hover::after {
         margin-left: 20px;
 
     }
+
+    .container {
+
+        padding: 2px 2%;
+      
+      }
+      .containers {
+    
+        padding: 2px 4%;
+      
+      }
 
     .mandiv {
         width: 680px;
