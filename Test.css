@@ -1,0 +1,125 @@
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    body {
+  
+      width: 96%;
+      margin-left: 20px;
+  
+    }
+  
+    .container {
+  
+      padding: 2px 1%;
+    
+    }
+    .containers {
+  
+      padding: 2px 1%;
+    
+    }
+  
+  
+    .header-text h1 {
+  
+      padding-top: 10px;
+  
+      font-size: 83px;
+    }
+  
+    .header-text h2 {
+      font-size: 75px;
+      margin-top: -30px;
+    }
+  
+    .loader {
+  
+      margin-top: -30px;
+    }
+  
+    .loaader {
+  
+      margin-top: -30px;
+    }
+  
+    .wrapper {
+      margin-left: -22px;
+    }
+  
+    #projects{
+      margin-right: -2px;
+    }
+  
+    .pos_Set {
+  
+      padding-top: 70px;
+    }
+  
+    .follow {
+  
+      padding-top: 70px;
+    }
+  
+    #Achievements h1{
+      margin-left:25px;
+    }
+    .achievement1 {
+  
+      padding-top: 0px;
+      
+    }
+  
+    .name {
+      font-size: 23px;
+      font-weight: 700;
+      margin-left: -10px;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+  
+    .description {
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 10px;
+      color: #000000;
+      line-height: 29px;
+      margin-bottom: 20px;
+    }
+  
+    .descriptions {
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 10px;
+      color: #000000;
+      line-height: 35px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .card-image {
+      position: relative;
+      margin-left: 30px;
+      height: 300px;
+      width: 300px;
+      border-radius: 40px;
+      padding: 10px;
+      margin-top: 10px;
+      -webkit-border-radius: 40px;
+      -moz-border-radius: 40px;
+      -ms-border-radius: 40px;
+      -o-border-radius: 40px;
+    }
+  
+    .checkss {
+      margin-left: 480px;
+  
+  
+    }
+  
+    #photographs {
+  
+      margin-right: -70px;
+    }
+  
+   
+  }
