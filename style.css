@@ -521,7 +521,270 @@ nav .fas {
 
 /* ...........about me............ */
 
+/* Project section */
 
+/* my projects */
+
+#projects {
+
+  padding-top: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.card2 {
+  width: 300px;
+  height: 430px;
+  border-radius: 15px;
+  /* background-color: #2c2a2a; */
+  background: linear-gradient(to right, rgb(212, 20, 90) 0%, rgb(251, 176, 59) 100%);
+  border-radius: 20;
+  transition: all .2s;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card2:hover {
+  transform: scale(1.15);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+}
+
+.card3 {
+  width: 300px;
+  height: 430px;
+  border-radius: 15px;
+  /* background-color: #2c2a2a; */
+  background: linear-gradient(to right, rgb(213, 133, 255) 0%, rgb(0, 255, 238) 100%);
+  border-radius: 20;
+  transition: all .2s;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card3:hover {
+  transform: scale(1.15);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transform: scale();
+  -moz-transform: scale();
+  -ms-transform: scale();
+  -o-transform: scale();
+}
+
+.card4 {
+  width: 300px;
+  height: 430px;
+  border-radius: 15px;
+  /* background-color: #2c2a2a; */
+  background: linear-gradient(to right, rgb(102, 45, 140) 0%, rgb(237, 30, 121) 100%);
+  border-radius: 20;
+  transition: all .2s;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card4:hover {
+  transform: scale(1.15);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transform: scale();
+  -moz-transform: scale();
+  -ms-transform: scale();
+  -o-transform: scale();
+}
+
+.card5 {
+  width: 300px;
+  height: 430px;
+  border-radius: 15px;
+  /* background-color: #2c2a2a; */
+  background: linear-gradient(to right, rgb(0, 146, 69) 0%, rgb(252, 238, 33) 100%);
+  border-radius: 20;
+  transition: all .2s;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card5:hover {
+  transform: scale(1.15);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transform: scale();
+  -moz-transform: scale();
+  -ms-transform: scale();
+  -o-transform: scale();
+}
+
+.card6 {
+  width: 300px;
+  height: 430px;
+  border-radius: 15px;
+  /* background-color: #2c2a2a; */
+  background: linear-gradient(to right, rgb(241, 190, 19) 0%, rgb(216, 104, 59) 100%);
+  border-radius: 20;
+  transition: all .2s;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card6:hover {
+  transform: scale(1.15);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transform: scale();
+  -moz-transform: scale();
+  -ms-transform: scale();
+  -o-transform: scale();
+}
+
+.card7 {
+  width: 300px;
+  height: 430px;
+  border-radius: 15px;
+  /* background-color: #2c2a2a; */
+  background: linear-gradient(to right, rgb(231, 70, 132) 0%, rgb(223, 151, 182) 100%);
+  border-radius: 20;
+  transition: all .2s;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card7:hover {
+  transform: scale(1.15);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transform: scale();
+  -moz-transform: scale();
+  -ms-transform: scale();
+  -o-transform: scale();
+}
+
+.card8 {
+  width: 300px;
+  height: 430px;
+  border-radius: 15px;
+  /* background-color: #2c2a2a; */
+  background: linear-gradient(to right, rgb(31, 153, 201) 0%, rgb(223, 151, 182) 100%);
+  border-radius: 20;
+  transition: all .2s;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card8:hover {
+  transform: scale(1.15);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transform: scale();
+  -moz-transform: scale();
+  -ms-transform: scale();
+  -o-transform: scale();
+}
+
+
+.position {
+
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 25px;
+
+
+  color: var(--theme-ui-colors-black, #000);
+
+}
+
+.icon {
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+
+.p_color {
+  color: var(--theme-ui-colors-black, #000);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.p_hcolor {
+  color: var(--theme-ui-colors-black, #000);
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 29px;
+
+
+}
+
+.p_hccolor {
+  color: var(--theme-ui-colors-black, #000);
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 29px;
+
+
+}
+
+.p_hcccolor {
+  color: var(--theme-ui-colors-black, #000);
+  font-size: 23px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+
+
+}
+
+/* Project section */
 
 
 
@@ -550,12 +813,12 @@ nav .fas {
   #header {
 
     background-image: url(images/dp.jpg);
-    
+
   }
-  
-  
-  .setdiv{
-    background: rgba(42, 43, 42, 0.6) ;
+
+
+  .setdiv {
+    background: rgba(42, 43, 42, 0.3);
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -615,7 +878,7 @@ nav .fas {
 
     margin: 40px;
     text-align: center;
-    
+
 
   }
 
@@ -624,7 +887,7 @@ nav .fas {
     position: absolute;
     top: 25px;
     left: 25px;
-   
+
     cursor: pointer;
   }
 
@@ -641,8 +904,9 @@ nav .fas {
     padding-left: 20px;
     color: #ababab;
   }
+
   .sub-title {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .col-1,
@@ -699,20 +963,32 @@ nav .fas {
     font-size: 17px;
     font-weight: 700;
   }
-  
+
   .cg {
-    
+
     margin-left: 20px;
     text-align: right;
     font-style: italic;
     font-weight: bold;
   }
-  
+
   .cgs {
     margin-left: 20px;
     font-style: italic;
     font-weight: bold;
   }
+
+  #projects {
+
+    padding-top: 20px;
+    
+  }
+  .service-list {
+
+    margin-top: 20px;
+    grid-gap: 20px;
+  }
+
 
 }
 
@@ -733,12 +1009,13 @@ nav .fas {
     text-align: center;
     font-size: 20px;
   }
+
   .loader {
     display: none;
   }
 
-  .setdiv{
-    background: rgba(42, 43, 42, 0.6) ;
+  .setdiv {
+    background: rgba(42, 43, 42, 0.6);
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -747,9 +1024,9 @@ nav .fas {
 
     font-size: 70px;
     /* Green background with 30% opacity */
-}
+  }
 
-  
+
 
   .header-text h1 span {
     color: #d3f7fc;
@@ -788,7 +1065,7 @@ nav .fas {
 
     margin: 40px;
     text-align: center;
-    
+
 
   }
 
@@ -797,7 +1074,7 @@ nav .fas {
     position: absolute;
     top: 25px;
     left: 25px;
-   
+
     cursor: pointer;
   }
 
@@ -814,11 +1091,12 @@ nav .fas {
     padding-left: 20px;
     color: #ababab;
   }
+
   .sub-title {
-    font-size: 30px;
+    font-size: 40px;
   }
 
-  
+
   .col-1 {
     margin-bottom: 10px;
     font-size: 14px;
@@ -853,7 +1131,7 @@ nav .fas {
     height: 22px;
   }
 
-  
+
 
   .tab-titles {
     display: flex;
@@ -866,19 +1144,30 @@ nav .fas {
     font-size: 17px;
     font-weight: 700;
   }
-  
+
   .cg {
-    
+
     margin-left: 20px;
     text-align: right;
     font-style: italic;
     font-weight: bold;
   }
-  
+
   .cgs {
     margin-left: 20px;
     font-style: italic;
     font-weight: bold;
+  }
+
+  #projects {
+
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .service-list {
+
+    margin-top: 20px;
   }
 }
 
