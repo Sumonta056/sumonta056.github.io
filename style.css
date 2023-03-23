@@ -35,6 +35,7 @@ html {
   padding: 2px 4%;
 
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -272,6 +273,254 @@ nav .fas {
 
 /* home screen */
 
+/* ...........about me............ */
+#about {
+  padding-top: 80px;
+  padding-left: 40px;
+  color: #ababab;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.col-2 {
+  flex-basis: 35%;
+}
+
+.col-2 img {
+  width: 100%;
+  margin-top: 70px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.col-2 img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.col-1 {
+  flex-basis: 60%;
+  word-spacing: 2px;
+}
+
+.sub-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: #b4b0b0;
+  margin-bottom: 20px;
+
+}
+
+.sub-line {
+
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.tab-contents {
+  display: none;
+  line-height: 35px;
+  font-size: 15px;
+  margin-left: 18px;
+
+}
+
+.tab-contents ul li span {
+  font-weight: 400;
+
+}
+
+.tab-contents.active-tab {
+  display: block;
+}
+
+
+.space1 {
+  margin-left: 40px;
+}
+
+.tab-titles {
+  display: flex;
+  margin: 30px 0 40px
+}
+
+.tab-links {
+  margin-right: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-links::after {
+  content: " ";
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.tab-links.active-link::after {
+  width: 100%;
+}
+
+.Education {
+
+  color: #ff004f;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.cg {
+  margin-left: 220px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.cgs {
+  margin-left: 252px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  color: #0f1923;
+  cursor: pointer;
+  position: relative;
+  padding: 8px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all .15s ease;
+}
+
+.button::before,
+.button::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: calc(50% - 5px);
+  border: 3px solid #272431;
+  transition: all .15s ease;
+}
+
+.button::before {
+  top: 0;
+  border-bottom-width: 0;
+}
+
+.button::after {
+  bottom: 0;
+  border-top-width: 0;
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
+
+.button:active::before,
+.button:active::after {
+  right: 3px;
+  left: 3px;
+}
+
+.button:active::before {
+  top: 3px;
+}
+
+.button:active::after {
+  bottom: 3px;
+}
+
+.button_lg {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #0f1923;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.button_lg::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  background-color: #0f1923;
+}
+
+.button_lg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #020202;
+  transition: all .2s ease;
+}
+
+.button_sl {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: -1px;
+  left: -8px;
+  width: 0;
+  background-color: #ff004f;
+  transform: skew(-15deg);
+  transition: all .2s ease;
+}
+
+.button_text {
+  position: relative;
+}
+
+.button:hover {
+  color: #0f1923;
+}
+
+.button:hover .button_sl {
+  width: calc(100% + 15px);
+}
+
+.button:hover .button_lg::after {
+  background-color: #fff;
+}
+
+/* ...........about me............ */
+
 
 
 
@@ -348,12 +597,16 @@ nav .fas {
 
   .logo {
     width: 200px;
-    
+
   }
 
   nav ul li {
     display: block;
-    margin: 25px;
+
+    margin: 40px;
+    text-align: center;
+    
+
   }
 
   nav ul .fas {
@@ -361,6 +614,7 @@ nav .fas {
     position: absolute;
     top: 25px;
     left: 25px;
+   
     cursor: pointer;
   }
 
@@ -372,10 +626,90 @@ nav .fas {
     display: none;
   }
 
+  #about {
+    padding-top: 40px;
+    padding-left: 20px;
+    color: #ababab;
+  }
+  .sub-title {
+    font-size: 30px;
+  }
+
+  .col-1,
+  .col-2 {
+    flex-basis: 100%;
+  }
+
+  .col-1 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    word-spacing: 0px;
+  }
+
+  .sub-line {
+
+    font-size: 12px;
+    line-height: 22px;
+    padding-right: 20px;
+  }
+
+  .tab-links {
+    font-size: 12px;
+    margin-right: 20px;
+
+  }
+
+  .tab-contents {
+    line-height: 29px;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+
+  .space1 {
+    margin-left: 0px;
+  }
+
+
+  .col-1 img {
+    height: 14px;
+  }
+
+  .col-2 {
+    display: none;
+  }
+
+  .tab-titles {
+    display: flex;
+    margin: 30px 0 20px
+  }
+
+  .Education {
+
+    color: #ff004f;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .cg {
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .cgs {
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+
+
+
 
 
 }
 
+/*  monitor screen */
 @media (min-width: 1610px) and (max-width: 3000px) {
 
   .header-text h1 {
@@ -389,6 +723,9 @@ nav .fas {
     font-size: 84px;
   }
 }
+
+
+/*  mini screen */
 
 @media (min-width: 1200px) and (max-width: 1500px) {
 
