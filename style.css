@@ -981,12 +981,35 @@ nav .fas {
   #projects {
 
     padding-top: 20px;
-    
+
   }
+
   .service-list {
 
     margin-top: 20px;
     grid-gap: 20px;
+  }
+
+  .card2:hover {
+    pointer-events: none;
+  }
+  .card3:hover {
+    pointer-events: none;
+  }
+  .card4:hover {
+    pointer-events: none;
+  }
+  .card5:hover {
+    pointer-events: none;
+  }
+  .card6:hover {
+    pointer-events: none;
+  }
+  .card7:hover {
+    pointer-events: none;
+  }
+  .card8:hover {
+    pointer-events: none;
   }
 
 
