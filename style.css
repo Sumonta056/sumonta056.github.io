@@ -544,7 +544,7 @@ nav .fas {
 /* set screens  */
 
 /* phone screen */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
 
   #header {
@@ -654,14 +654,14 @@ nav .fas {
   }
 
   .tab-links {
-    font-size: 12px;
+    font-size: 15px;
     margin-right: 20px;
 
   }
 
   .tab-contents {
     line-height: 29px;
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 8px;
   }
 
@@ -671,7 +671,7 @@ nav .fas {
 
 
   .col-1 img {
-    height: 14px;
+    height: 22px;
   }
 
   .col-2 {
@@ -686,12 +686,14 @@ nav .fas {
   .Education {
 
     color: #ff004f;
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 700;
   }
   
   .cg {
+    
     margin-left: 20px;
+    text-align: right;
     font-style: italic;
     font-weight: bold;
   }
