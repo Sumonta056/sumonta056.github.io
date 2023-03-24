@@ -11,10 +11,7 @@ body {
     background: linear-gradient(90deg, rgba(2, 0, .6, 1) 30%, rgb(21, 27, 114) 80%);
 }
 
-html {
-    scroll-behavior: smooth;
 
-}
 
 
 #header {
@@ -100,15 +97,16 @@ nav .fas {
 
 /* ...........about me............ */
 .containers {
-  
+
     padding: 2px 4%;
-  
-  }
+
+}
+
 #about {
 
-    
+
     width: 100%;
-    padding-top: 0px;
+    padding-top: 40px;
     color: #ababab;
 }
 
@@ -379,7 +377,72 @@ nav .fas {
         cursor: pointer;
     }
 
+    .hero .carsi {
 
+        width: 100px;
+        margin: 30px auto 0;
+
+    }
+
+    .carsi img {
+        width: 200px;
+
+    }
+
+    .col-1 , .col-2{
+        flex-basis: 100%;
+    }
+    #about {
+
+        padding-top: 0px;
+       
+    }
+    
+    .row {
+      
+        padding-left: 10px;
+    }
+
+    .col-2 img{
+        width: 100%;
+
+    }
+    .col-2{
+        padding-top: 100px;
+    }
+
+    .col-1{
+        position: relative;
+    }
+
+    .sub-line {
+
+        line-height: 30px;
+        font-size: 12px;
+        margin-bottom: -20px;
+    }
+    
+    
+    .name {
+        font-size: 30px;
+        font-weight: 600;
+        color: #235f70;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    
+    
+    }
+    
+    .names {
+        padding-top: 10px;
+        font-size: 40px;
+        font-weight: 600;
+        color: #ababab;
+        margin-bottom: 20px;
+        text-align: center;
+    
+    }
+    
 
 
 
@@ -432,4 +495,152 @@ nav .fas {
 
         cursor: pointer;
     }
+
+    .col-1{
+        flex-basis: 68%;
+    }
+    .col-2{
+        flex-basis: 30%;
+    }
+    #about {
+
+        padding-top: 20px;
+       
+    }
+    
+    .row {
+      
+        padding-left: 10px;
+    }
+
+    .col-2 img{
+        width: 100%;
+
+    }
+    .col-2{
+        padding-top: 100px;
+    }
+
+    .col-1{
+        position: relative;
+    }
+
+    .sub-line {
+
+        line-height: 40px;
+        font-size: 20px;
+        margin-bottom: -20px;
+    }
+    
+    
+    .name {
+        font-size: 40px;
+        font-weight: 600;
+        color: #235f70;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    
+    
+    }
+    
+    .names {
+      
+        font-size: 60px;
+        font-weight: 600;
+        color: #ababab;
+        margin-bottom: 40px;
+        text-align:left;
+    
+    }
+    
+}
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    body {
+
+        width: 96%;
+        margin-left: 20px;
+
+    }
+
+    .container {
+
+        padding: 2px 2%;
+
+    }
+
+    .containers {
+
+        padding: 2px 4%;
+
+    }
+
+    .mandiv {
+        width: 680px;
+        height: 440px;
+    }
+
+    .header-text h2 {
+        font-size: 55px;
+    }
+
+    .header-text {
+        position: relative;
+        text-align: right;
+        padding-top: 50px;
+        font-size: 17px;
+        line-height: 20px;
+
+    }
+
+    .header-text h1 {
+        font-size: 62px;
+        text-align: right;
+    }
+
+    .col-2 img {
+        width: 450px;
+
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+    .sub-line {
+
+        line-height: 30px;
+        font-size: 17px;
+    }
+
+
+    .name {
+        font-size: 55px;
+        font-weight: 600;
+        color: #235f70;
+        padding-top: 60px;
+        margin-bottom: 40px;
+
+
+    }
+
+    .names {
+        padding-top: 50px;
+        font-size: 80px;
+        font-weight: 600;
+        color: #ababab;
+        margin-bottom: 0px;
+        text-align: center;
+
+    }
+
+    #Achievements {
+        margin-right: -30px;
+        padding-left: 30px;
+    }
+
+
 }
