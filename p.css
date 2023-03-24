@@ -551,12 +551,6 @@ nav ul li a:hover::after {
 
 
 
-#projects {
-
-    margin-top: 60px;
-
-}
-
 .sub-title {
     font-size: 60px;
     font-weight: 600;
@@ -564,6 +558,8 @@ nav ul li a:hover::after {
     margin-bottom: 40px;
     color: #ffffffab;
 }
+
+
 
 
 
