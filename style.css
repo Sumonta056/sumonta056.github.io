@@ -1272,6 +1272,284 @@ nav .fas {
 }
 
 
+.contactme {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+section {
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.contact {
+
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  grid-gap: 6rem;
+}
+
+.contact-img img {
+  max-width: 100%;
+  width: 1000px;
+  height: auto;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.contact-form h1 {
+
+  font-size: 80px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.us {
+  color: #ff004f;
+}
+
+.contact-form p {
+
+  color: #c6c9d8bf;
+  letter-spacing: 1px;
+  line-height: 26px;
+  font-size: 1.1rem;
+  margin-bottom: 3.8rem;
+}
+
+.contact-form form {
+
+  position: relative;
+}
+
+.contact-form form input,
+form textarea {
+  width: 100%;
+  padding: 17px;
+  border: none;
+  outline: none;
+  background: linear-gradient(90deg, rgb(25, 25, 25) 40%, rgb(41, 33, 66) 100%);
+  color: #fffcfc;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.contact-form form textarea {
+  resize: none;
+  height: 250px;
+}
+
+.contact-form form .btn {
+  display: inline-block;
+  background: #f9004d;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+
+  width: 250px;
+  height: 50px;
+}
+
+.contact-form form .btn:hover {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #ff004f;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+
+/* social */
+.Social {
+
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  margin-bottom: 100px;
+
+
+}
+
+.wrappeer {
+  display: inline-flex;
+}
+
+.wrappeer .icon {
+
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+  color: #000;
+}
+
+.wrappeer .icon span {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: block;
+  color: #000;
+  background: #fff;
+  text-align: center;
+  z-index: 3;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrappeer .icon:hover span i {
+  color: #fff;
+}
+
+.wrappeer .icon span i {
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.wrappeer .icon .tooltip {
+  position: absolute;
+  top: 0px;
+  background: #000000;
+  font-size: 20px;
+  padding: 10px 18px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
+  -moz-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
+  -ms-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
+  -o-transition: all 0.3s cubic-bezier(0, 68, -0.55, 0.265, 1.55);
+}
+
+.wrappeer .icon:hover .tooltip {
+
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.wrappeer .icon .tooltip::before {
+
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #f7f7f7;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+
+}
+
+
+.wrappeer .icon:hover span,
+.wrappeer .icon:hover .tooltip {
+
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.wrappeer .facebook:hover span,
+.wrappeer .facebook:hover .tooltip,
+.wrappeer .facebook:hover .tooltip::before {
+
+  background: #3b5999;
+  color: #ffffff;
+}
+
+.wrappeer .instagram:hover span,
+.wrappeer .instagram:hover .tooltip,
+.wrappeer .instagram:hover .tooltip::before {
+
+  background: #e1306c;
+  color: #ffffff;
+}
+
+.wrappeer .twitter:hover span,
+.wrappeer .twitter:hover .tooltip,
+.wrappeer .twitter:hover .tooltip::before {
+
+  background: #46c1f6;
+  color: #ffffff;
+}
+
+.wrappeer .github:hover span,
+.wrappeer .github:hover .tooltip,
+.wrappeer .github:hover .tooltip::before {
+
+  background: #333;
+  color: #ffffff;
+}
+
+.wrappeer .linkedin:hover span,
+.wrappeer .linkedin:hover .tooltip,
+.wrappeer .linkedin:hover .tooltip::before {
+
+  background: #1b4fbe;
+  color: #ffffff;
+}
+
+
+.wrappeer .youtube:hover span,
+.wrappeer .youtube:hover .tooltip,
+.wrappeer .youtube:hover .tooltip::before {
+
+  background: #b91616;
+  color: #ffffff;
+}
+
+.cv {
+
+  margin-top: 30px;
+}
+
+.end {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -70px;
+}
+
+
+
+
+
 
 
 
@@ -1840,6 +2118,7 @@ nav .fas {
     line-height: 29px;
     margin-bottom: 20px;
   }
+
   .sub-project1 {
 
     margin-top: 100px;
@@ -1849,8 +2128,133 @@ nav .fas {
     text-align: center;
     align-items: center;
     justify-content: center;
-  
+
   }
+
+  .Social {
+
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    margin-bottom: 100px;
+    padding: 10px;
+
+  }
+
+  .wrappeer {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+
+  .end {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 30px;
+    box-sizing: border-box;
+  }
+
+  .contact {
+
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    grid-gap: 20px;
+  }
+
+  .contact-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  .contact-form h1 {
+
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .us {
+    color: #ff004f;
+  }
+
+  .contact-form p {
+
+    color: #c6c9d8bf;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .contact-form form {
+
+    position: relative;
+  }
+
+  .contact-form form input,
+  form textarea {
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, rgb(25, 25, 25) 40%, rgb(41, 33, 66) 100%);
+    color: #fffcfc;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  .contact-form form textarea {
+    resize: none;
+    height: 250px;
+  }
+
+  .contact-form form .btn {
+    display: inline-block;
+    background: #f9004d;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+
+    width: 250px;
+    height: 50px;
+  }
+
+  .contact-form form .btn:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #ff004f;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
 
 
 
@@ -2074,27 +2478,27 @@ nav .fas {
     font-size: 60px;
     color: #c8ccce;
     padding-left: 40px;
-   
+
   }
 
   /*achievement section */
   #Achievements {
 
-   padding-left: 160px;
-   padding-right: 200px;
-  
-  
+    padding-left: 160px;
+    padding-right: 200px;
+
+
 
   }
 
   .achievement1 {
 
-    display:inline-block;
-   
+    display: inline-block;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000000;
     margin-bottom: 50px;
-    
+
   }
 
   .card-image {
@@ -2135,7 +2539,7 @@ nav .fas {
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 40px;
     margin-right: 40px;
-   
+
 
   }
 
@@ -2221,7 +2625,7 @@ nav .fas {
     font-family: poppins;
     margin-top: 40px;
     margin-right: 40px;
- 
+
   }
 
   .cards3:hover {
@@ -2275,7 +2679,7 @@ nav .fas {
     font-family: poppins;
     margin-top: 10px;
     margin-right: 40px;
-    
+
   }
 
   .card11:hover {
@@ -2322,7 +2726,27 @@ nav .fas {
     margin-bottom: 20px;
   }
 
+  section {
+    padding: 30px;
+    box-sizing: border-box;
+  }
 
+  .contact-form h1 {
+
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+
+  .contact-form p {
+
+    color: #c6c9d8bf;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 
 
 
@@ -2479,7 +2903,7 @@ nav .fas {
     margin-bottom: 10px;
     color: #000000;
   }
-  
+
   .descriptions11 {
     font-size: 12px;
     font-weight: 400;
@@ -2488,5 +2912,5 @@ nav .fas {
     line-height: 29px;
     margin-bottom: 20px;
   }
-  
+
 }
