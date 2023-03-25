@@ -1025,7 +1025,7 @@ nav .fas {
 
 /*achievement section */
 #Achievements {
-  margin-top: 100px;
+  margin-top: -70px;
 
 }
 
@@ -1257,6 +1257,18 @@ nav .fas {
   color: #000000;
   line-height: 29px;
   margin-bottom: 20px;
+}
+
+.sub-projects {
+
+  margin-top: 100px;
+  font-size: 60px;
+  font-weight: 600;
+  color: #ddd2d2;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
 }
 
 
@@ -1585,15 +1597,16 @@ nav .fas {
   }
 
   #Achievements {
-    margin-top: 10px;
+    margin-top: -70px;
 
   }
 
-  .sub-project1 {
+  .sub-projects {
     padding-bottom: 10px;
     font-size: 40px;
     color: #c8ccce;
     padding-left: 20px;
+    text-align: left;
   }
 
   .achievement1 {
@@ -1827,6 +1840,18 @@ nav .fas {
     line-height: 29px;
     margin-bottom: 20px;
   }
+  .sub-project1 {
+
+    margin-top: 100px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #ddd2d2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
 
 
 
@@ -2039,22 +2064,23 @@ nav .fas {
   }
 
 
-  .sub-project1 {
+  #Achievements {
+    margin-top: -70px;
 
-    margin-top: 50px;
-    font-size: 50px;
-    font-weight: 600;
-    padding-bottom: 0px;
-    padding-left: 60px;
+  }
 
-
+  .sub-projects {
+    padding-bottom: 10px;
+    font-size: 60px;
+    color: #c8ccce;
+    padding-left: 40px;
+   
   }
 
   /*achievement section */
   #Achievements {
-    margin-top: 10px;
 
-   padding-left: 180px;
+   padding-left: 160px;
    padding-right: 200px;
   
   
