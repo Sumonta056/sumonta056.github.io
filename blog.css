@@ -789,7 +789,7 @@ nav ul li a:hover::after {
 
     }
 
-   
+
 
     .avatar {
         height: 30px;
@@ -837,21 +837,29 @@ nav ul li a:hover::after {
     .service-list {
 
         padding-left: 10px;
-      
+
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 20px;
         margin-top: 20px;
     }
-    .sub-title{
+
+    .sub-title {
         padding-left: 10px;
     }
-  
+
     .end {
-       
+
         font-size: 12px;
-    
+
     }
+
+    .post-card:hover {
+
+        background: linear-gradient(to right, rgb(198, 193, 201) 0%, rgb(233, 144, 71) 100%);
+
+    }
+
 
 
 
