@@ -889,135 +889,9 @@ nav .fas {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -150px;
+  margin-top: -220px;
 }
 
-.checkss {
-  position: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px 75px;
-  background: #3c94c7;
-
-  margin-top: -50px;
-  font-size: 30px;
-  text-align: center;
-  font-weight: 500;
-  color: #1e1e1f;
-
-  border-radius: 8px;
-  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));
-}
-
-.checkss:hover {
-  background: #4cadad;
-  animation: wind 2s ease-in-out infinite;
-  color: #111111;
-}
-
-@keyframes wind {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  0% {
-    background-position: 50% 100%;
-  }
-
-  0% {
-    background-position: 0% 50%;
-  }
-}
-
-.icon-1 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 25px;
-  transform-origin: 0 0;
-  transform: rotate(10deg);
-  transition: all .5s ease-in-out;
-  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .3));
-}
-
-.checkss:hover .icon-1 {
-  animation: slay-1 3s cubic-bezier(0.52, 0, 0.58, 1) infinite;
-  transform: rotate(10deg);
-}
-
-@keyframes slay-1 {
-  0% {
-    transform: rotate(10deg);
-  }
-
-  50% {
-    transform: rotate(-5deg);
-  }
-
-  100% {
-    transform: rotate(10deg);
-  }
-}
-
-.icon-2 {
-  position: absolute;
-  top: 0;
-  left: 25px;
-  width: 12px;
-  transform-origin: 50% 0;
-  transform: rotate(10deg);
-  transition: all 1s ease-in-out;
-  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .5));
-}
-
-.checkss:hover .icon-2 {
-  animation: slay-2 3s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;
-  transform: rotate(0);
-}
-
-@keyframes slay-2 {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  50% {
-    transform: rotate(15deg);
-  }
-
-  100% {
-    transform: rotate(0);
-  }
-}
-
-.icon-3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 18px;
-  transform-origin: 50% 0;
-  transform: rotate(-5deg);
-  transition: all 1s ease-in-out;
-  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .5));
-}
-
-.checkss:hover .icon-3 {
-  animation: slay-3 2s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;
-  transform: rotate(0);
-}
-
-@keyframes slay-3 {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  50% {
-    transform: rotate(-5deg);
-  }
-
-  100% {
-    transform: rotate(0);
-  }
-}
 
 
 /* photographs section */
@@ -2543,6 +2417,12 @@ form textarea {
     box-shadow: inset 0px 0px 0px 1px transparent;
   }
 
+  .follow .buttonSet{
+    margin-top: -150px;
+
+    width: 200px;
+  }
+
 
 
 
@@ -3046,6 +2926,11 @@ form textarea {
     margin-bottom: 10px;
   }
 
+  .follow .buttonSet{
+    margin-top: -80px;
+
+  
+  }
 
 
 
@@ -3193,8 +3078,8 @@ form textarea {
   }
 
   .follow {
-
-    margin-top: -130px;
+   margin-top: -150px;
+  
   }
 
   .name11 {
