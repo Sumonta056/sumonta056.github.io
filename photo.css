@@ -9,7 +9,6 @@ body {
     color: #fff;
     background: linear-gradient(90deg, rgba(2, 0, .6, 1) 30%, rgb(21, 27, 114) 80%);
 
-   
 }
 
 
@@ -24,12 +23,12 @@ html {
     width: 100%;
     background-size: cover;
     background-position: center;
-    transition:all 0.2ms;
+    transition: all 0.2ms;
 }
 
 .container {
     padding: 2px 4%;
-    transition:all 0.2ms;
+    transition: all 0.2ms;
 }
 
 nav {
@@ -107,12 +106,12 @@ nav .fas {
     width: 200px;
     margin: 50px auto 0;
     overflow: visible;
-    transition:all 0.5ms;
-    a-webkit-transition:;
-    -moz-transition:all 0.5ms;
-    -ms-transition:all 0.5ms;
-    -o-transition:all 0.5ms;
+    transition: all 0.5ms;
     -webkit-transition:all 0.5ms;
+    -moz-transition: all 0.5ms;
+    -ms-transition: all 0.5ms;
+    -o-transition: all 0.5ms;
+    -webkit-transition: all 0.5ms;
 }
 
 .carsi img {
@@ -752,7 +751,7 @@ nav .fas {
     .end {
         font-size: 14px;
     }
-    
+
 
 
 
