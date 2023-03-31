@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Sumonta's Portfolio</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="service.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+</head>
+
+<body>
+
+    <!-- home function -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/cover.png" class="logo" width="200px">
+
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="photography.html">Photographs</a></li>
+                    <li><a href="index.html#Achievements">Achievements</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="index.html#contactme">Contact</a></li>
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0px";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-250px";
+        }
+    </script>
+
+    <!-- home function -->
+
+    <div class="setDIv">
+        <div class="wrapper">
+            <h1>My Services</h1>
+
+            <div class="conten-box">
+                <div class="card">
+                    <span> <i class='bx bxl-android'></i></span>
+                    <h2>Android App</h2>
+                    <p>
+                        I can develop android apps with database backend for you.<br>
+
+                    </p>
+                    <div class="imgcons">
+                        <img
+                            src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white">
+
+                        <img
+                            src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span> <i class='bx bxl-html5'></i></span>
+                    <h2>Frontend Website</h2>
+                    <p>
+                        I can build responsive portfolio and small business website for you.<br>
+
+                    </p>
+                    <div class="imgcons">
+                        <img
+                            src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+
+                        <img
+                            src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span> <i class='bx bx-slideshow'></i></span>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        I can design UI/UX of your app or website for you<br>
+
+                    </p>
+                    <div class="imgcons">
+                        <img
+                            src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white">
+
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span> <i class='bx bx-game'></i></span>
+                    <h2>2D Games</h2>
+                    <p>
+                        I can build story based fighting and survival games for you<br>
+
+                    </p>
+                    <div class="imgcons">
+                        <img
+                            src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white">
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span> <i class='bx bxs-objects-horizontal-center'></i></span>
+                    <h2>Mentor</h2>
+                    <p>
+                        I can guide and prepare you for competitions like Hackathon , Idea Presentation , App
+                        Competition<br>
+
+                    </p>
+                    <div class="imgcons">
+                        <img
+                            src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white">
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <span> <i class='bx bx-bookmarks'></i></span>
+                    <h2>Blog Writting</h2>
+                    <p>
+                        I can write blogs on topic of software engineering and technology for you<br>
+
+                    </p>
+                    <div class="imgcons">
+                        <img
+                            src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/DEV/TO-FF5722?style=for-the-badge&logo=blogger&logoColor=white">
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span> <i class='bx bx-male'></i></span>
+                    <h2>Academic Mentoring</h2>
+                    <p>
+                        I can help you in understanding and guiding academic courses<br>
+
+                    </p>
+                    <div class="imgcons">
+                        <img
+                            src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span> <i class='bx bxs-camera'></i></span>
+                    <h2>Photography & Editing</h2>
+                    <p>
+                        I can take and edit photos of you or any event or occassion for you <br>
+
+                    </p>
+                    <div class="imgcons">
+                        <img
+                            src="https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white">
+
+
+                    </div>
+                </div>
+                <div class="card">
+                    <span> <i class='bx bxl-git'></i></span>
+                    <h2>GitHub Help</h2>
+                    <p>
+                        I can teach you Git , GitHub and Markup language<br>
+
+                    </p>
+                    <div class="imgcons">
+                        <img
+                            src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
+                        <img
+                            src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="Social">
+        <div class="wrappeer">
+            <div class="icon facebook" onclick="window.location.href = 'https://www.facebook.com/sumonta.mridul/';">
+                <div class="tooltip">Facebook</div>
+                <span><i class="fab fa-facebook-f"></i> </span>
+            </div>
+            <div class="icon instagram" onclick="window.location.href = 'https://www.instagram.com/_sumonta_saha_/';">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram"></i> </span>
+            </div>
+            <div class="icon twitter" onclick="window.location.href = 'https://twitter.com/sumonta_saha';">
+                <div class="tooltip">Twitter</div>
+                <span><i class="fab fa-twitter"></i> </span>
+            </div>
+            <div class="icon github" onclick="window.location.href = 'https://github.com/Sumonta056';">
+                <div class="tooltip">GitHub</div>
+                <span><i class="fab fa-github"></i> </span>
+            </div>
+            <div class="icon linkedin"
+                onclick="window.location.href = 'https://www.linkedin.com/in/sumonta-saha-mridul-b35bb61a0/';">
+                <div class="tooltip">Linkedin</div>
+                <span><i class="fab fa-linkedin"></i> </span>
+            </div>
+            <div class="icon youtube" onclick="window.location.href = 'https://www.youtube.com/@sumontasaha1624';">
+                <div class="tooltip">YouTube</div>
+                <span><i class="fab fa-youtube"></i> </span>
+            </div>
+
+        </div>
+
+        <div class="cv">
+            <button class="button"
+                onclick="window.location.href = 'https://drive.google.com/file/d/1kLgjjzp-QV0_T0wh7G2JMoD9wPOvtpkG/view?usp=sharing';">
+                <span class="button_lg">
+                    <span class="button_sl"></span>
+                    <span class="button_text">Download My CV</span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <div class="end">
+        <p>© 2023 Sumonta Saha Mridul. All rights reserved.</p>
+    </div>
+
+
+
+</body>
+
+</html>
