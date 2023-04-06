@@ -2987,27 +2987,6 @@ form textarea {
 }
 
 
-/*  monitor screen */
-@media (min-width: 1910px) and (max-width: 3000px) {
-
-  .header-text h1 {
-
-    padding-top: 20px;
-
-    font-size: 130px;
-  }
-
-  .header-text  {
-
-    padding-top: 180px;
-  }
-  
-
-  header-text h2 {
-    font-size: 84px;
-  }
-}
-
 
 /*  mini screen */
 
@@ -3166,4 +3145,25 @@ form textarea {
 
   }
 
+}
+
+/*  monitor screen */
+@media (min-width: 1910px) and (max-width: 3000px) {
+
+  .header-text h1 {
+
+    padding-top: 20px;
+
+    font-size: 130px;
+  }
+
+  .header-text  {
+
+    padding-top: 180px;
+  }
+  
+
+  header-text h2 {
+    font-size: 84px;
+  }
 }
