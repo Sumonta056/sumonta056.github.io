@@ -1447,10 +1447,15 @@ form textarea {
 
 .services-list {
 
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 50px;
-  margin-top: 50px;
+  margin-top: 50px; */
 }
 
 .service-lists {
@@ -1459,6 +1464,12 @@ form textarea {
   justify-content: center;
   align-items: center;
   padding-top: 40px;
+}
+
+.gg {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
 }
 
 .buttonSet {
@@ -2335,11 +2346,13 @@ form textarea {
   }
 
   .services-list {
+  
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 50px;
+
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 60px;
+   
   }
 
   .post-card {
@@ -2975,7 +2988,7 @@ form textarea {
 
 
 /*  monitor screen */
-@media (min-width: 1610px) and (max-width: 3000px) {
+@media (min-width: 1910px) and (max-width: 3000px) {
 
   .header-text h1 {
 
@@ -2983,6 +2996,12 @@ form textarea {
 
     font-size: 130px;
   }
+
+  .header-text  {
+
+    padding-top: 180px;
+  }
+  
 
   header-text h2 {
     font-size: 84px;
