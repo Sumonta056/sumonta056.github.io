@@ -743,6 +743,33 @@ nav .fas {
   -o-transform: scale();
 }
 
+.card9 {
+  width: 300px;
+  height: 430px;
+  border-radius: 15px;
+  /* background-color: #2c2a2a; */
+  background: linear-gradient(to right, rgb(20, 145, 111) 0%, rgb(228, 230, 105) 100%);
+  border-radius: 20;
+  transition: all .2s;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card9:hover {
+  transform: scale(1.15);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transform: scale();
+  -moz-transform: scale();
+  -ms-transform: scale();
+  -o-transform: scale();
+}
+
 
 .position {
 
