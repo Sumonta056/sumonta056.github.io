@@ -721,8 +721,7 @@ nav .fas {
   height: 430px;
   border-radius: 15px;
   /* background-color: #2c2a2a; */
-  background: linear-gradient(to right, rgb(241, 19, 19) 0%, rgb(216, 174, 59) 100%);
-  border-radius: 20;
+  background: linear-gradient(to right, rgb(67, 170, 238) 0%, rgb(239, 76, 226) 100%);
   border-radius: 20;
   transition: all .2s;
   -webkit-border-radius: 15px;
