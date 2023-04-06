@@ -721,7 +721,8 @@ nav .fas {
   height: 430px;
   border-radius: 15px;
   /* background-color: #2c2a2a; */
-  background: linear-gradient(to right, rgb(31, 153, 201) 0%, rgb(223, 151, 182) 100%);
+  background: linear-gradient(to right, rgb(241, 19, 19) 0%, rgb(216, 174, 59) 100%);
+  border-radius: 20;
   border-radius: 20;
   transition: all .2s;
   -webkit-border-radius: 15px;
@@ -805,6 +806,12 @@ nav .fas {
 
 
 }
+.ggwp{
+  font-size: 22px;
+  margin-bottom: 10px;
+
+}
+
 
 .p_hccolor {
   color: var(--theme-ui-colors-black, #000);
