@@ -24,6 +24,28 @@ html {
   background-size: cover;
   background-position: center;
 
+ 
+
+}
+
+@keyframes morph {
+
+  0%,
+  100% {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    -webkit-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    -moz-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    -ms-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    -o-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+}
+
+  34% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+  }
+
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+  }
 }
 
 .container {
@@ -41,7 +63,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 
 nav ul li {
@@ -88,6 +109,14 @@ nav ul li a:hover::after {
   width: 100%;
 
 
+}
+
+.animate__animated.animate__slideInUp {
+  --animate-duration: 4s;
+}
+
+.animate__animated.animate__slideInDown{
+  --animate-duration: 4s;
 }
 
 
@@ -313,6 +342,8 @@ nav .fas {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+
+  /* animation: morph 3.5s linear infinite; */
 }
 
 .col-2 img:hover {
@@ -805,7 +836,8 @@ nav .fas {
 
 
 }
-.ggwp{
+
+.ggwp {
   font-size: 22px;
   margin-bottom: 10px;
 
@@ -2383,13 +2415,13 @@ form textarea {
   }
 
   .services-list {
-  
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 
     margin-top: 50px;
     margin-left: 60px;
-   
+
   }
 
   .post-card {
@@ -3027,7 +3059,7 @@ form textarea {
 
 /*  mini screen */
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
 
   body {
 
@@ -3194,11 +3226,11 @@ form textarea {
     font-size: 130px;
   }
 
-  .header-text  {
+  .header-text {
 
     padding-top: 180px;
   }
-  
+
 
   header-text h2 {
     font-size: 84px;
