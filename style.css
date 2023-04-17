@@ -132,6 +132,28 @@ nav ul li a:hover::after {
   padding-top: 60px;
 }
 
+.setdiv p {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s, cursor .4s step-end infinite alternate;
+  -webkit-animation: typing 3s, cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+}
+
+
 .header-text h1 {
 
   font-size: 100px;
