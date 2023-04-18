@@ -34,6 +34,7 @@ nav .fas {
     padding: 2px 4%;
 
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -455,7 +456,7 @@ nav ul li a:hover::after {
 .service-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 50px;
+    grid-gap: 30px;
     margin-top: 50px;
 }
 
@@ -479,6 +480,7 @@ nav ul li a:hover::after {
     -ms-transform: translateY(-15px);
     -o-transform: translateY(-15px);
     background: linear-gradient(to right, rgb(198, 193, 201) 0%, rgb(233, 144, 71) 100%);
+
 }
 
 .avatar {
@@ -508,12 +510,24 @@ nav ul li a:hover::after {
 
 
 .datetime {
-    display: flex;
-    justify-content: end;
     font-size: 14px;
     color: rgb(23, 23, 24);
-    margin: 12px 10px;
+ 
 }
+
+.datetime1 {
+    font-size: 14px;
+    color: rgb(23, 23, 24);
+ 
+    font-weight: 600;
+}
+
+.seting{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5px;
+}
+
 
 .image-preview {
     flex: 1;
@@ -536,7 +550,11 @@ nav ul li a:hover::after {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+
+ 
 }
+
+
 
 .comment-like {
     display: flex;
@@ -988,6 +1006,7 @@ nav ul li a:hover::after {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 20px;
     }
+
     .post-card {
         width: 400px;
         height: 440px;
@@ -998,6 +1017,8 @@ nav ul li a:hover::after {
         display: flex;
         flex-direction: column;
         padding: 10px 17px;
-    
+
     }
-  }
+}
+
+
