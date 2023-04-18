@@ -24,7 +24,7 @@ html {
   background-size: cover;
   background-position: center;
 
- 
+
 
 }
 
@@ -37,7 +37,7 @@ html {
     -moz-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
     -ms-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
     -o-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
-}
+  }
 
   34% {
     border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
@@ -115,7 +115,7 @@ nav ul li a:hover::after {
   --animate-duration: 4s;
 }
 
-.animate__animated.animate__slideInDown{
+.animate__animated.animate__slideInDown {
   --animate-duration: 4s;
 }
 
@@ -2885,6 +2885,8 @@ form textarea {
     line-height: 29px;
     margin-bottom: 20px;
   }
+
+
 
   .descriptions {
     font-size: 23px;

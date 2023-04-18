@@ -798,9 +798,8 @@ nav ul li a:hover::after {
     }
 
     .service-list {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        grid-gap: 50px;
+        display: flex;
+        flex-direction: column;
         margin-top: 50px;
         left: 0;
         right: 0;
@@ -808,7 +807,7 @@ nav ul li a:hover::after {
 
     .post-card {
         width: 330px;
-        height: 320px;
+        height: 350px;
         background: lightgrey;
         background: linear-gradient(to right, rgb(198, 193, 201) 0%, rgb(90, 140, 216) 100%);
         border: 1px solid rgb(84 90 106);
@@ -840,11 +839,15 @@ nav ul li a:hover::after {
 
 
     .datetime {
-        display: flex;
-        justify-content: end;
+      
+        font-size: 13px;
+       
+    }
+    .datetime1 {
         font-size: 13px;
         color: rgb(23, 23, 24);
-        margin: 4px 10px;
+     
+        font-weight: 500;
     }
 
 
