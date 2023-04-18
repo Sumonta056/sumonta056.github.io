@@ -470,6 +470,11 @@ nav ul li a:hover::after {
     display: flex;
     flex-direction: column;
     padding: 10px 17px;
+    transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 
 }
 
@@ -512,17 +517,17 @@ nav ul li a:hover::after {
 .datetime {
     font-size: 14px;
     color: rgb(23, 23, 24);
- 
+
 }
 
 .datetime1 {
     font-size: 14px;
     color: rgb(23, 23, 24);
- 
+
     font-weight: 600;
 }
 
-.seting{
+.seting {
     display: flex;
     justify-content: space-between;
     margin: 15px 5px;
@@ -551,7 +556,7 @@ nav ul li a:hover::after {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 
- 
+
 }
 
 
@@ -749,6 +754,7 @@ nav ul li a:hover::after {
 
     }
 
+
     .logo {
         width: 200px;
 
@@ -815,8 +821,8 @@ nav ul li a:hover::after {
         display: flex;
         flex-direction: column;
         padding: 10px 17px;
-
-    }
+        
+}
 
 
 
@@ -839,14 +845,15 @@ nav ul li a:hover::after {
 
 
     .datetime {
-      
+
         font-size: 13px;
-       
+
     }
+
     .datetime1 {
         font-size: 13px;
         color: rgb(23, 23, 24);
-     
+
         font-weight: 500;
     }
 
@@ -1023,5 +1030,3 @@ nav ul li a:hover::after {
 
     }
 }
-
-

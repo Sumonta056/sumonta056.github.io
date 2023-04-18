@@ -364,6 +364,11 @@ nav .fas {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 
   /* animation: morph 3.5s linear infinite; */
 }
@@ -1053,7 +1058,11 @@ nav .fas {
   font-family: 'Josefin Sans', sans-serif;
   margin-top: 40px;
   margin-right: 40px;
-
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
 
 .card-content {
@@ -1094,12 +1103,11 @@ nav .fas {
 
 .cards:hover {
   background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 
@@ -1115,15 +1123,20 @@ nav .fas {
   font-family: poppins;
   margin-top: 40px;
   margin-right: 40px;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
 
 .cards1:hover {
   background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 .cards3 {
@@ -1138,15 +1151,20 @@ nav .fas {
   font-family: poppins;
   margin-top: 40px;
   margin-right: 40px;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
 
 .cards3:hover {
   background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 .card11 {
@@ -1161,6 +1179,11 @@ nav .fas {
   font-family: poppins;
   margin-top: 10px;
   margin-right: 40px;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
 
 .card12 {
@@ -1175,6 +1198,11 @@ nav .fas {
   font-family: poppins;
   margin-top: 10px;
   margin-right: 40px;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
 
 .card13 {
@@ -1189,33 +1217,38 @@ nav .fas {
   font-family: poppins;
   margin-top: 10px;
   margin-right: 40px;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
 }
 
 .card11:hover {
   background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 .card13:hover {
   background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 .card12:hover {
   background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 .name11 {
@@ -1575,6 +1608,7 @@ form textarea {
   background-color: #9b9b9e;
   overflow: hidden;
   box-shadow: inset 0px 0px 0px 1px transparent;
+  
 }
 
 
@@ -1588,7 +1622,11 @@ form textarea {
   display: flex;
   flex-direction: column;
   padding: 10px 17px;
-
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
 }
 
 .post-card:hover {
@@ -2123,17 +2161,6 @@ form textarea {
     margin-bottom: 20px;
   }
 
-  .cards:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-
-  }
-
-
   .cards1 {
     display: flex;
     flex-direction: column;
@@ -2152,14 +2179,6 @@ form textarea {
     margin-right: 40px;
   }
 
-  .cards1:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
 
   .cards3 {
     display: flex;
@@ -2179,14 +2198,7 @@ form textarea {
     margin-right: 40px;
   }
 
-  .cards3:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
+
 
   .card11 {
     display: flex;
@@ -2240,33 +2252,6 @@ form textarea {
     font-family: poppins;
     margin-top: 10px;
     margin-right: 40px;
-  }
-
-  .card11:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
-
-  .card13:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
-
-  .card12:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
   }
 
   .name11 {
@@ -2898,15 +2883,7 @@ form textarea {
     margin-bottom: 20px;
   }
 
-  .cards:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-
-  }
+ 
 
 
   .cards1 {
@@ -2923,14 +2900,7 @@ form textarea {
     margin-right: 40px;
   }
 
-  .cards1:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
+
 
   .cards3 {
     width: 450px;
@@ -2947,14 +2917,7 @@ form textarea {
 
   }
 
-  .cards3:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
+
 
   .card11 {
     width: 450px;
@@ -3001,32 +2964,6 @@ form textarea {
 
   }
 
-  .card11:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
-
-  .card13:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
-
-  .card12:hover {
-    background: linear-gradient(to right, rgb(147, 150, 142) 0%, rgb(105, 105, 105) 100%);
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-  }
 
   .name11 {
     font-size: 30px;
