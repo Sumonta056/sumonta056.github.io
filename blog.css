@@ -471,10 +471,10 @@ nav ul li a:hover::after {
     flex-direction: column;
     padding: 10px 17px;
     transition: all .4s;
-  -webkit-transition: all .4s;
-  -moz-transition: all .4s;
-  -ms-transition: all .4s;
-  -o-transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
 
 }
 
@@ -821,8 +821,8 @@ nav ul li a:hover::after {
         display: flex;
         flex-direction: column;
         padding: 10px 17px;
-        
-}
+
+    }
 
 
 
@@ -1030,3 +1030,6 @@ nav ul li a:hover::after {
 
     }
 }
+
+
+
