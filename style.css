@@ -65,7 +65,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
- 
+
 }
 
 
@@ -160,6 +160,7 @@ nav ul li a:hover::after {
 .header-text h1 {
 
   font-size: 96px;
+  animation: animMarker 0.5s ease-in-out infinite alternate;
 }
 
 .header-text h1 span {
@@ -168,6 +169,27 @@ nav ul li a:hover::after {
 
 .header-text h2 {
   font-size: 74px;
+  animation: animMarker 0.5s ease-in-out infinite alternate;
+  -webkit-animation: animMarker 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes animMarker {
+  0% {
+    transform: translate(0px, -5px);
+    -webkit-transform: translate(0px, -5px);
+    -moz-transform: translate(0px, -5px);
+    -ms-transform: translate(0px, -5px);
+    -o-transform: translate(0px, -5px);
+    transform: scale(1);
+}
+
+  100% {
+    transform: translate(0px, 12px);
+    -webkit-transform: translate(0px, 12px);
+    -moz-transform: translate(0px, 12px);
+    -ms-transform: translate(0px, 12px);
+    -o-transform: translate(0px, 12px);
+}
 }
 
 .loader {
@@ -901,7 +923,7 @@ nav .fas {
 #photographs {
 
   margin-right: -40px;
-  
+
 }
 
 .pos_Set {
@@ -1616,7 +1638,7 @@ form textarea {
   background-color: #9b9b9e;
   overflow: hidden;
   box-shadow: inset 0px 0px 0px 1px transparent;
-  
+
 }
 
 
@@ -2100,6 +2122,7 @@ form textarea {
     margin-bottom: 40px;
     padding-left: 43px;
   }
+
   .card-image {
     position: relative;
     margin-left: 0px;
@@ -2904,7 +2927,7 @@ form textarea {
     margin-bottom: 20px;
   }
 
- 
+
 
 
   .cards1 {
@@ -3224,48 +3247,52 @@ form textarea {
 
 
 .notification {
-	position: absolute;
-	bottom: 50px;
-	left: 50px;
-	width: max-content;
-	padding: 20px 15px;
-	border-radius: 4px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  width: max-content;
+  padding: 20px 15px;
+  border-radius: 4px;
   background: linear-gradient(90deg, rgba(126, 120, 123, 0.514) 0%, rgb(21, 114, 83) 80%);
-	color: #f6f5f9;
-	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.658);
-	transform: translateY(30px);
-	opacity: 0;
-	visibility: hidden;
-	animation: fade-in 4s linear forwards;
+  color: #f6f5f9;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.658);
+  transform: translateY(30px);
+  opacity: 0;
+  visibility: hidden;
+  animation: fade-in 4s linear forwards;
 }
+
 .notification__progress {
-	position: absolute;
-	left: 5px;
-	bottom: 5px;
-	width: calc(100% - 10px);
-	height: 3px;
-	transform: scaleX(0);
-	transform-origin: left;
-	background-image: linear-gradient(to right, #539bdb, #bec5dd);
-	border-radius: inherit;
-	animation: load 4s 0.25s linear forwards;
-	-webkit-animation: load 4s 0.25s linear forwards;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: calc(100% - 10px);
+  height: 3px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background-image: linear-gradient(to right, #539bdb, #bec5dd);
+  border-radius: inherit;
+  animation: load 4s 0.25s linear forwards;
+  -webkit-animation: load 4s 0.25s linear forwards;
 }
+
 @keyframes fade-in {
-	5% {
-		opacity: 1;
-		visibility: visible;
-		transform: translateY(0);
-	}
-	90% {
-		opacity: 1;
-		transform: translateY(0);
-	}
+  5% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
 @keyframes load {
-	to {
-		transform: scaleX(1);
-	}
+  to {
+    transform: scaleX(1);
+  }
 }
 
 
@@ -3286,6 +3313,7 @@ form textarea {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+
 #progress-value {
   display: block;
   height: calc(100% - 15px);
