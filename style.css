@@ -140,6 +140,8 @@ nav ul li a:hover::after {
   overflow: hidden;
   animation: typing 3s, cursor .4s step-end infinite alternate;
   -webkit-animation: typing 3s, cursor .4s step-end infinite alternate;
+
+
 }
 
 @keyframes cursor {
@@ -165,6 +167,8 @@ nav ul li a:hover::after {
 
 .header-text h1 span {
   color: #8baafd;
+  
+
 }
 
 .header-text h2 {
