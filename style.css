@@ -3120,6 +3120,13 @@ form textarea {
     margin-right: -2px;
   }
 
+  .service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+  }
+
   .pos_Set {
 
     padding-top: 70px;
