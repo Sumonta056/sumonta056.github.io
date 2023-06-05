@@ -1699,12 +1699,24 @@ form textarea {
 
 
 .datetime {
-  display: flex;
-  justify-content: end;
-  font-size: 14px;
-  color: rgb(23, 23, 24);
-  margin: 12px 10px;
+    font-size: 14px;
+    color: rgb(23, 23, 24);
+
 }
+
+.datetime1 {
+    font-size: 14px;
+    color: rgb(23, 23, 24);
+
+    font-weight: 600;
+}
+
+.seting {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5px;
+}
+
 
 .image-preview {
   flex: 1;
@@ -1737,18 +1749,37 @@ form textarea {
 }
 
 .comment-like span {
-  cursor: pointer;
-  height: 40px;
-  width: 50px;
-  padding: 0 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  border-radius: 10px;
-  background-color: transparent;
-  transition: all .15s ease;
-  color: #000;
+    cursor: pointer;
+    height: 40px;
+    width: 45px;
+    padding: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all .15s ease;
+    color: #000;
+    font-size: 15px;
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    -ms-transition: all .15s ease;
+    -o-transition: all .15s ease;
+}
+
+.comment-like .like {
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+    padding: 0 3px;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all .15s ease;
+    color: #000;
+
+    font-size: 15px;
 }
 
 .comment-like span:hover {
@@ -2465,9 +2496,8 @@ form textarea {
 
   .services-list {
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
     margin-left: 60px;
 
@@ -2475,7 +2505,7 @@ form textarea {
 
   .post-card {
     width: 330px;
-    height: 320px;
+    height: 340px;
     background: lightgrey;
     background: linear-gradient(to right, rgb(198, 193, 201) 0%, rgb(90, 140, 216) 100%);
     border: 1px solid rgb(84 90 106);
@@ -2507,12 +2537,17 @@ form textarea {
 
 
   .datetime {
-    display: flex;
-    justify-content: end;
-    font-size: 13px;
-    color: rgb(23, 23, 24);
-    margin: 4px 10px;
-  }
+
+        font-size: 13px;
+
+    }
+
+    .datetime1 {
+        font-size: 13px;
+        color: rgb(23, 23, 24);
+
+        font-weight: 500;
+    }
 
 
 
@@ -2530,6 +2565,27 @@ form textarea {
     transition: all .15s ease;
     color: #000;
   }
+
+
+  
+    .comment-like span {
+   
+        font-size: 9px;
+    }
+
+    .comment-like .like {
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        padding: 0 3px;
+        font-weight: 800;
+        border-radius: 10px;
+        background-color: transparent;
+        transition: all .15s ease;
+        color: #000;
+    
+        font-size: 9px;
+    }
 
   .services-list {
 
@@ -3057,7 +3113,14 @@ form textarea {
 
 
   }
+  .services-list {
 
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 60px;
+
+  }
 
 
 
