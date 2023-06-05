@@ -152,10 +152,41 @@ nav ul li a:hover::after {
 }
 
 
+#progress {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 4;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  #progress-value {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #001a2e;
+  }
 
 
 
+.gotoTop svg{
 
+    cursor: pointer;
+    height: 40px;
+    width: 45px;
+  }
+  
 
 
 /* social */

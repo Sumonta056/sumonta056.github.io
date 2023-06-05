@@ -167,7 +167,7 @@ nav ul li a:hover::after {
 
 .header-text h1 span {
   color: #8baafd;
-  
+
 
 }
 
@@ -185,7 +185,7 @@ nav ul li a:hover::after {
     -ms-transform: translate(0px, -5px);
     -o-transform: translate(0px, -5px);
     transform: scale(1);
-}
+  }
 
   100% {
     transform: translate(0px, 12px);
@@ -193,7 +193,7 @@ nav ul li a:hover::after {
     -moz-transform: translate(0px, 12px);
     -ms-transform: translate(0px, 12px);
     -o-transform: translate(0px, 12px);
-}
+  }
 }
 
 .loader {
@@ -1699,22 +1699,22 @@ form textarea {
 
 
 .datetime {
-    font-size: 14px;
-    color: rgb(23, 23, 24);
+  font-size: 14px;
+  color: rgb(23, 23, 24);
 
 }
 
 .datetime1 {
-    font-size: 14px;
-    color: rgb(23, 23, 24);
+  font-size: 14px;
+  color: rgb(23, 23, 24);
 
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .seting {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 5px;
 }
 
 
@@ -1749,37 +1749,37 @@ form textarea {
 }
 
 .comment-like span {
-    cursor: pointer;
-    height: 40px;
-    width: 45px;
-    padding: 0 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 800;
-    border-radius: 10px;
-    background-color: transparent;
-    transition: all .15s ease;
-    color: #000;
-    font-size: 15px;
-    -webkit-transition: all .15s ease;
-    -moz-transition: all .15s ease;
-    -ms-transition: all .15s ease;
-    -o-transition: all .15s ease;
+  cursor: pointer;
+  height: 40px;
+  width: 45px;
+  padding: 0 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: all .15s ease;
+  color: #000;
+  font-size: 15px;
+  -webkit-transition: all .15s ease;
+  -moz-transition: all .15s ease;
+  -ms-transition: all .15s ease;
+  -o-transition: all .15s ease;
 }
 
 .comment-like .like {
-    cursor: pointer;
-    height: 40px;
-    width: 60px;
-    padding: 0 3px;
-    font-weight: 800;
-    border-radius: 10px;
-    background-color: transparent;
-    transition: all .15s ease;
-    color: #000;
+  cursor: pointer;
+  height: 40px;
+  width: 60px;
+  padding: 0 3px;
+  font-weight: 800;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: all .15s ease;
+  color: #000;
 
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .comment-like span:hover {
@@ -1792,6 +1792,13 @@ form textarea {
   margin-right: 2px;
 }
 
+
+.gotoTop svg{
+
+  cursor: pointer;
+  height: 40px;
+  width: 45px;
+}
 
 
 
@@ -2538,16 +2545,16 @@ form textarea {
 
   .datetime {
 
-        font-size: 13px;
+    font-size: 13px;
 
-    }
+  }
 
-    .datetime1 {
-        font-size: 13px;
-        color: rgb(23, 23, 24);
+  .datetime1 {
+    font-size: 13px;
+    color: rgb(23, 23, 24);
 
-        font-weight: 500;
-    }
+    font-weight: 500;
+  }
 
 
 
@@ -2567,25 +2574,25 @@ form textarea {
   }
 
 
-  
-    .comment-like span {
-   
-        font-size: 9px;
-    }
 
-    .comment-like .like {
-        cursor: pointer;
-        height: 40px;
-        width: 40px;
-        padding: 0 3px;
-        font-weight: 800;
-        border-radius: 10px;
-        background-color: transparent;
-        transition: all .15s ease;
-        color: #000;
-    
-        font-size: 9px;
-    }
+  .comment-like span {
+
+    font-size: 9px;
+  }
+
+  .comment-like .like {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    padding: 0 3px;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all .15s ease;
+    color: #000;
+
+    font-size: 9px;
+  }
 
   .services-list {
 
@@ -3113,6 +3120,7 @@ form textarea {
 
 
   }
+
   .services-list {
 
     display: flex;

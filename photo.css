@@ -1019,3 +1019,10 @@ nav .fas {
     font-size: 35px;
     color: #001a2e;
   }
+
+  .gotoTop svg{
+
+    cursor: pointer;
+    height: 40px;
+    width: 45px;
+  }
