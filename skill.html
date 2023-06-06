@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Sumonta's Portfolio</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="skill.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+  />
+
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+    <!-- home function -->
+    <div id="header">
+        <div class="container box">
+            <nav>
+                <img src="images/cover.png" class="logo" width="200px">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="photography.html">Photographs</a></li>
+                    <li><a href="#Achievements">Achievements</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="#contactme">Contact</a></li>
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+
+                <div class="loader  animate__animated animate__slideInDown">
+                    <div class="snow">
+                        <span style="--i:11"></span>
+                        <span style="--i:12"></span>
+                        <span style="--i:15"></span>
+                        <span style="--i:17"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                    </div>
+                </div>
+                <div class="loaader  animate__animated animate__slideInDown">
+                    <div class="snow">
+                        <span style="--i:11"></span>
+                        <span style="--i:12"></span>
+                        <span style="--i:15"></span>
+                        <span style="--i:17"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                    </div>
+                </div>
+                <div class="setdiv  animate__animated animate__slideInUp">
+                    <h2>Hi, I'm <br></h2>
+                    <h1><span>Sumonta Saha <br>Mridul</span></h1>
+                    <p>Student🧑‍💻 - Software Engineer💻 - Photographer📸</p>
+                    <!-- <a href="https://git.io/typing-svg"><img
+                            src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&width=435&lines=I'm+a+Software+Engineer+Student;I+am+also+a+Software+Developer+;Love+to+take+Photos+and+write+blogs"
+                            alt="Typing SVG" /></a> -->
+
+                    <div class="wrapper">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="shadow"></div>
+                        <div class="shadow"></div>
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="notification"
+                onclick="window.location.href = 'https://drive.google.com/file/d/1kLgjjzp-QV0_T0wh7G2JMoD9wPOvtpkG/view?usp=sharing';">
+                <p>Would you like to check my CV ?😊</p>
+                <span class="notification__progress"></span>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0px";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-250px";
+        }
+    </script>
+
+
+
+
+    <!-- home function -->
+
+
+
+
+    <div id="progress">
+        <span id="progress-value" class="gotoTop">
+            <?xml version="1.0" ?>
+            <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
+                height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1"
+                viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                    d="M128.4,189.3L233.4,89c5.8-6,13.7-9,22.4-9c8.7,0,16.5,3,22.4,9l105.4,100.3c12.5,11.9,12.5,31.3,0,43.2  c-12.5,11.9-32.7,11.9-45.2,0L288,184.4v217c0,16.9-14.3,30.6-32,30.6c-17.7,0-32-13.7-32-30.6v-217l-50.4,48.2  c-12.5,11.9-32.7,11.9-45.2,0C115.9,220.6,115.9,201.3,128.4,189.3z" />
+            </svg>
+        </span>
+    </div>
+    <script>
+        let calcScrollValue = () => {
+            let scrollProgress = document.getElementById("progress");
+            let progressValue = document.getElementById("progress-value");
+            let pos = document.documentElement.scrollTop;
+            let calcHeight =
+                document.documentElement.scrollHeight -
+                document.documentElement.clientHeight;
+            let scrollValue = Math.round((pos * 100) / calcHeight);
+            if (pos > 100) {
+                scrollProgress.style.display = "grid";
+            } else {
+                scrollProgress.style.display = "none";
+            }
+            scrollProgress.addEventListener("click", () => {
+                document.documentElement.scrollTop = 0;
+            });
+            scrollProgress.style.background = `conic-gradient(#05BFDB ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+        };
+        window.onscroll = calcScrollValue;
+        window.onload = calcScrollValue;
+    </script>
+
+
+
+
+
+
+
+
+
+    <!-- about section -->
+    <div id="about">
+        <div class="containers box">
+            <div class="row">
+                <div class="col-1">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <div class="sub-line">
+                        <p>
+                            I am currently studying Software Engineering in Shahjalal University of Science and
+                            Technology (SUST). Besides, I am a <b>Software Developer💻</b> with a passion for coding and
+                            problem solving.
+                            I also love <b>Photography📸</b> as a creative outlet and capturing the world around me.
+                        </p>
+                    </div>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('others')">Others</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Competitive Programing : <br></span>
+                                <div class="space1">
+                                    <img
+                                        src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+                                </div>
+                            </li>
+                            <li><span>App Development : <br></span>
+                                <div class="space1">
+                                    <img
+                                        src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white">
+                                </div>
+                            </li>
+                            <li><span>Web Development : <br></span>
+                                <div class="space1">
+                                    <img
+                                        src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+                                </div>
+                            </li>
+                            <li><span>Graphic & UI/UX Designing : <br></span>
+                                <div class="space1">
+                                    <img
+                                        src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
+                                </div>
+                            </li>
+                            <li><span> Collaboration : <br></span>
+                                <div class="space1">
+                                    <img
+                                        src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="others">
+                        <ul>
+                            <li><span>Game Development <br></span>
+                                <div class="space1">
+                                    <img
+                                        src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white">
+                                </div>
+                            </li>
+                            <li><span>Software Development: <br></span>
+                                <div class="space1">
+                                    <img
+                                        src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+                                    <img
+                                        src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white">
+
+                                </div>
+                            </li>
+                            <li><span>Database Management <br></span>
+                                <div class="space1">
+                                    <img
+                                        src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white">
+                                </div>
+                            </li>
+                            <li><span>Office Management <br></span>
+                                <div class="space1">
+                                    <img
+                                        src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white"><br>
+                                    <img
+                                        src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
+                                    <img
+                                        src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white">
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="Education"><b>B.Sc in Software Engineering</b> </span><br>
+
+                                <p>Shahjalal University of Science and Technology, Sylhet </p>
+                                <p align="left">2020 - Present <span class="cg">(CGPA - 3.73)</span> </p>
+
+
+                            </li><br>
+                            <li><span class="Education"><b>HSC</b> </span><br>
+
+                                <p>Notre Dame College, Dhaka</p>
+                                <p align="left">2017 - 2019 <span class="cgs">(GPA - 5.00)
+                                    </span> </p>
+
+
+                            </li><br>
+                            <li><span class="Education"><b>SSC</b> </span><br>
+
+                                <p>Narayanganj Ideal School, Narayanganj </p>
+                                <p align="left">2015 - 2017 <span class="cgs">(GPA - 5.00)</span> </p>
+
+
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span class="Education"><b>Looking For Intership Oppurtunity</b> </span><br>
+
+                                <p>Check Out My CV</p>
+                                <button class="button"
+                                    onclick="window.location.href = 'https://drive.google.com/file/d/1kLgjjzp-QV0_T0wh7G2JMoD9wPOvtpkG/view?usp=sharing';">
+                                    <span class="button_lg">
+                                        <span class="button_sl"></span>
+                                        <span class="button_text">Download Now</span>
+                                    </span>
+                                </button>
+
+
+                            </li><br>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <img src="images/about.png">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <!-- about section -->
+
+
+    <!-- Projects section -->
+    <div id="projects">
+        <div class="containers box">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="service-list">
+                <div>
+                    <div class="card"
+                        onclick="window.location.href = 'https://github.com/Sumonta056/sumonta056.github.io';">
+                        <div class="card9">
+                            <div class="position">
+                                <img align="center" class="icon" src="images/Port.gif" width="190">
+                                <span class="p_hcolor">Portfolio</span>
+                                <p>
+                                    Personal Reponsive Portfolio Website of mine
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Langauge :</span></b> HTML , CSS <br>
+                                    <b><span class="p_color">Langauge :</span></b> Javascript <br>
+                                    <b><span class="p_color">Environment :</span></b> VS Code <br>
+
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card"
+                        onclick="window.location.href = 'https://github.com/Sumonta056/SUST-Autorickshaw-Management-System';">
+                        <div class="card8">
+                            <div class="position">
+                                <img align="center" class="icon" src="images/auto.gif" width="190">
+                                <span class="p_hcolor ggwp"> (SUST) AutoRickshaw Management System </span>
+                                <p>
+                                    Automation of AutoRickshaw Management System of SUST
+                                </p>
+                                <p>
+
+                                    <b><span class="p_color">Database :</span></b> MySQL
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card" onclick="window.location.href = 'https://github.com/Sumonta056/Rent_IT-App';">
+                        <div class="card2">
+                            <div class="position">
+                                <img align="center" class="icon" src="images/rent.gif" width="190">
+                                <span class="p_hcolor">Rent IT</span>
+                                <p>
+                                    Online based products like clothes, furniture, electronics etc rent app
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Langauge :</span></b> Java <br>
+                                    <b><span class="p_color">Environment :</span></b> Android Studio <br>
+                                    <b><span class="p_color">Database :</span></b> Firebase
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card" onclick="window.location.href = 'https://github.com/Sumonta056/Survive-IT';">
+                        <div class="card4">
+                            <div class="position">
+                                <img align="center" class="icon" src="images/hero.gif" width="190">
+                                <span class="p_hcolor">Survive It</span>
+                                <p>
+                                    A hero survival game in mystery land and killing enemy with abilities
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Langauge :</span></b> Java <br>
+                                    <b><span class="p_color">Environment :</span></b> IntelIJ <br>
+                                    <b><span class="p_color">Framework :</span></b> LibGDX
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card"
+                        onclick="window.location.href = 'https://github.com/Sumonta056/Survival-of-Warrior';">
+                        <div class="card5">
+                            <div class="position">
+                                <img align="center" class="icon" src="images/hero1.gif" width="190">
+                                <span class="p_hccolor">Survival Of Warrior</span>
+                                <p>
+                                    Fight with enemy and survive as many time as possible
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Langauge :</span></b> C++ <br>
+                                    <b><span class="p_color">Environment :</span></b> Visual Studio <br>
+                                    <b><span class="p_color">Framework :</span></b> Igraphics
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" onclick="window.location.href = 'https://github.com/Sumonta056/EVA_BOT';">
+                    <div class="card7">
+                        <div class="position">
+                            <img align="center" class="icon" src="images/bot.gif" width="190">
+                            <span class="p_hccolor">Eva Talking Bot</span>
+                            <p>
+                                A virtual bot that talks with you and makes your daily life much easier by
+                                doing things for you
+                            </p>
+                            <p>
+                                <b><span class="p_color">Langauge :</span></b> Python <br>
+                                <b><span class="p_color">Environment :</span></b> Pycharm <br>
+                            </p>
+
+                            <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card" onclick="window.location.href = 'https://github.com/Sumonta056/Code-Library';">
+                        <div class="card3">
+                            <div class="position">
+                                <img align="center" class="icon" src="images/code.gif" width="190">
+                                <span class="p_hccolor">Code Library C++</span>
+                                <p>
+                                    Store house of almost everything related to learn C++.
+                                    Data Structure , algorithm, OOP, CP tips
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Langauge :</span></b> C++<br>
+                                    <b><span class="p_color">Environment :</span></b> VS Code <br>
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card"
+                        onclick="window.location.href = 'https://github.com/Sumonta056/Student-Management-System';">
+                        <div class="card6">
+                            <div class="position">
+                                <img align="center" class="icon" src="images/books.gif" width="180">
+                                <span class="p_hcccolor">Student Management System</span>
+                                <p>
+                                    Manage students information and their marks (File Handling)
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Langauge :</span></b> C++<br>
+                                    <b><span class="p_color">Environment :</span></b> VS Code <br>
+
+                                </p>
+
+                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div>
+                    <div class="card">
+                        <div class="card8">
+                            <div class="position">
+                                <br><br><br><br>
+                                <img align="center" class="icon" src="images/soon.png" width="180">
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects section -->
+
+
+
+
+
+    <!-- Photographs Section -->
+    <div id="projects">
+        <div id="photographs" class="box">
+            <h1 class="sub-project">Photography</h1>
+            <div class="pos_Set">
+                <div class="slider" onclick="window.location.href = 'https://www.instagram.com/_sumonta_saha_/';">
+                    <span style="--i:1;"><img class="scales" src="images/1.jpg"></span>
+                    <span style="--i:2;"><img class="scales" src="images/2.jpg"></span>
+                    <span style="--i:3;"><img class="scales" src="images/3.jpg"></span>
+                    <span style="--i:4;"><img class="scales" src="images/4.jpg"></span>
+                    <span style="--i:5;"><img class="scales" src="images/5.jpg"></span>
+                    <span style="--i:6;"><img class="scales" src="images/6.jpg"></span>
+                    <span style="--i:7;"><img class="scales" src="images/7.jpg"></span>
+                    <span style="--i:8;"><img class="scales" src="images/8.jpg"></span>
+                    <span style="--i:9;"><img class="scales" src="images/9.jpg"></span>
+                    <span style="--i:10;"><img class="scales" src="images/10.jpg"></span>
+                    <span style="--i:11;"><img class="scales" src="images/11.jpg"></span>
+                    <span style="--i:12;"><img class="scales" src="images/12.jpg"></span>
+
+                </div>
+            </div>
+
+            <div class="service-lists follow">
+                <button class="button buttonSet" onclick="window.location.href = 'photography.html';">
+                    <span class="button_lg">
+                        <span class="button_sl"></span>
+                        <span class="button_text">Load More </span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <!-- Photographs Section -->
+
+    <!-- achivements section -->
+
+
+    <div id="Achievements" class="box">
+        <h1 class="sub-projects">Achievements</h1>
+        <div class="achievement1">
+            <div class="cards">
+                <div class="image-content">
+                    <span class="overlay">
+
+                    </span>
+
+                    <div class="card-image">
+                        <img src="images/hacka.jpg" class="card-img">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name">Brainstation 23 Hackathon</h2>
+                    <p class="description">Participated in Brainstation23 Hackathon in Orbitax
+                        SUST SWE Technovent 2023 Powered by DSI <br>
+
+                        - Leader of the Team ( Team CTH ) <br>
+                        - Made it to top 9 among 90+ teams
+
+                    </p>
+                    <button class="button"
+                        onclick="window.location.href = 'https://www.linkedin.com/feed/update/urn:li:activity:7026935587148378112/';">
+                        <span class="button_lg">
+                            <span class="button_sl"></span>
+                            <span class="button_text">read more </span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="cards1">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="images/ps.jpg" class="card-img">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name">800+ Problems Solved</h2>
+                    <p class="description">Solved more than 800 problems in various platform <br>
+
+                        - Newbie - Codeforces (Rank: 1049) <br>
+                        - 3 Star - CodeChef (Country Rank - 1167)<br>
+                        - Problem solved in LeetCode, AtCoder
+                    </p>
+                    <button class="button"
+                        onclick="window.location.href = 'https://www.stopstalk.com/user/profile/sumonta056';">
+                        <span class="button_lg">
+                            <span class="button_sl"></span>
+                            <span class="button_text">read more </span>
+                        </span>
+                    </button>
+
+                </div>
+            </div>
+            <div class="cards3">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="images/test.png" class="card-img">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name11">Idea Competition</h2>
+
+                    <p class="descriptions11">
+                        Participated in idea competition in Mobile App, Game and Job Festival 2023 hosted
+                        By Skill Development for Mobile Game & Application Project,
+                        ICT Division, Govt. of Bangladesh and organized by SUST .<br>
+
+
+
+                        - Made it to top 6
+                    </p>
+
+                    <button class="button" onclick="window.location.href = 'https://youtu.be/aDQ8eV9iVxQ?t=2353';">
+                        <span class="button_lg">
+                            <span class="button_sl"></span>
+                            <span class="button_text">read more </span>
+                        </span>
+                    </button>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="achievement1">
+            <div class="card11">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="images/pg.jpg" class="card-img">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name">Photography Exhibition</h2>
+                    <p class="description">My photo got selected for final round of (among 150+ photos) Photo
+                        Exhibition in exCEEd Manifestation
+                        Organized by Department of Civil and Environmental Engineering(CEE), SUST <br>
+
+                    </p>
+                    <button class="button"
+                        onclick="window.location.href = 'https://www.linkedin.com/feed/update/urn:li:activity:7037990921178681344/';">
+                        <span class="button_lg">
+                            <span class="button_sl"></span>
+                            <span class="button_text">read more </span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="card12">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="images/pp.jpg" class="card-img">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name">Poster Presentation</h2>
+                    <p class="description"> Won 2nd price in Intra School Dewalika Competition
+                        ( Poster Presentation ) Organized by Narayanganj Ideal School
+                        Theme was Pohela Boishak and Bangla Culture
+                        <br>
+
+                    </p>
+                    <button class="button"
+                        onclick="window.location.href = 'https://m.facebook.com/story.php?story_fbid=pfbid02Buma9qrwWQ2EXi7bmgt9mLP9oY7JLgR7rFcirCcjb4f5iMuZkcu7R1fZQr1hQkdkl&id=100003312339275&mibextid=Nif5oz';">
+                        <span class="button_lg">
+                            <span class="button_sl"></span>
+                            <span class="button_text">read more </span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="card13">
+                <div class="image-content">
+                    <div class="card-image">
+                        <img src="images/sc.png" class="card-img">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2 class="name">Scholar-Ships</h2>
+
+                    <ul class="descriptions">
+                        <li>Secondary School Certificate (SSC) Scholarship - 2017
+
+                            ( Talent Pool
+                            8th Position in Narayanganj District )
+
+
+                        </li>
+                        <li>Junior School Certificate (JSC) Scholarship - 2014</li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- achivements section -->
+
+    <!-- blogs -->
+    <div id="blogs">
+        <div class="containers box">
+            <h1 class="sub-title gg">My Blogs</h1>
+            <div class="services-list">
+                <div class="post-card"
+                    onclick="window.location.href = 'https://medium.com/@sumontasaha80/solid-principles-the-key-to-writing-clean-high-quality-code-9a8f88ea0a8';">
+                    <div class="avatar"><img src="blogs/m.png"></div>
+                    <a class="title">SOLID Principles: The Key to Writing Clean & High-Quality Code</a>
+                    <div class="seting">
+                        <div class="datetime"> 11 min to read</div>
+                        <div class="datetime1"> Publication : Nerd For Tech</div>
+                    </div>
+                    <div class="image-preview"><img src="blogs/2.png"></div>
+                    <div class="comment-like">
+                        <span>
+                            <?xml version="1.0" ?><svg style="enable-background:new 0 0 24 24;" version="1.1"
+                                viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="info" />
+                                <g id="icons">
+                                    <path
+                                        d="M22.2,4.1c2.7,2.7,2.4,6.9-0.4,9.5l-8.4,7.9c-0.8,0.7-2.1,0.7-2.9,0l-8.4-7.9c-2.7-2.6-3-6.8-0.4-9.5   C4.6,1.4,9.2,1.3,12,4C14.8,1.3,19.4,1.4,22.2,4.1z"
+                                        id="like" />
+                                </g>
+                            </svg>154
+                        </span>
+                        <span class="like">
+                            <?xml version="1.0" ?>
+                            <!DOCTYPE svg
+                                PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
+                                height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1"
+                                viewBox="0 0 512 512" width="512px" xml:space="preserve"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g>
+                                    <path
+                                        d="M447.1,256.2C401.8,204,339.2,144,256,144c-33.6,0-64.4,9.5-96.9,29.8C131.7,191,103.6,215.2,65,255l-1,1l6.7,6.9   C125.8,319.3,173.4,368,256,368c36.5,0,71.9-11.9,108.2-36.4c30.9-20.9,57.2-47.4,78.3-68.8l5.5-5.5L447.1,256.2z M256,336   c-44.1,0-80-35.9-80-80c0-44.1,35.9-80,80-80c44.1,0,80,35.9,80,80C336,300.1,300.1,336,256,336z" />
+                                    <path
+                                        d="M250.4,226.8c0-6.9,2-13.4,5.5-18.8c-26.5,0-47.9,21.6-47.9,48.2c0,26.6,21.5,48.1,47.9,48.1s48-21.5,48-48.1v0   c-5.4,3.5-11.9,5.5-18.8,5.5C266,261.6,250.4,246,250.4,226.8z" />
+                                </g>
+                            </svg>300
+                        </span>
+                        <span>More</span>
+                    </div>
+                </div>
+
+                <div class="post-card"
+                    onclick="window.location.href = 'https://medium.com/gitconnected/learn-flexbox-in-css-6ca1165c2a64';">
+                    <div class="avatar">
+                        <img src="blogs/m.png">
+                    </div>
+                    <a class="title">"Learn “Flexbox” in CSS</a>
+                    <div class=" seting">
+                        <div class="datetime"> 9 min to read</div>
+                        <div class="datetime1"> Publication : Level Up Coding</div>
+                    </div>
+                    <div class="image-preview">
+                        <img src="blogs/flexbox2.png">
+                    </div>
+                    <div class="comment-like">
+                        <span>
+                            <?xml version="1.0" ?><svg style="enable-background:new 0 0 24 24;" version="1.1"
+                                viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="info" />
+                                <g id="icons">
+                                    <path
+                                        d="M22.2,4.1c2.7,2.7,2.4,6.9-0.4,9.5l-8.4,7.9c-0.8,0.7-2.1,0.7-2.9,0l-8.4-7.9c-2.7-2.6-3-6.8-0.4-9.5   C4.6,1.4,9.2,1.3,12,4C14.8,1.3,19.4,1.4,22.2,4.1z"
+                                        id="like" />
+                                </g>
+                            </svg>221
+                        </span>
+                        <span class="like">
+                            <?xml version="1.0" ?>
+                            <!DOCTYPE svg
+                                PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
+                                height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1"
+                                viewBox="0 0 512 512" width="512px" xml:space="preserve"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g>
+                                    <path
+                                        d="M447.1,256.2C401.8,204,339.2,144,256,144c-33.6,0-64.4,9.5-96.9,29.8C131.7,191,103.6,215.2,65,255l-1,1l6.7,6.9   C125.8,319.3,173.4,368,256,368c36.5,0,71.9-11.9,108.2-36.4c30.9-20.9,57.2-47.4,78.3-68.8l5.5-5.5L447.1,256.2z M256,336   c-44.1,0-80-35.9-80-80c0-44.1,35.9-80,80-80c44.1,0,80,35.9,80,80C336,300.1,300.1,336,256,336z" />
+                                    <path
+                                        d="M250.4,226.8c0-6.9,2-13.4,5.5-18.8c-26.5,0-47.9,21.6-47.9,48.2c0,26.6,21.5,48.1,47.9,48.1s48-21.5,48-48.1v0   c-5.4,3.5-11.9,5.5-18.8,5.5C266,261.6,250.4,246,250.4,226.8z" />
+                                </g>
+                            </svg>500
+                        </span>
+                        <span>More</span>
+                    </div>
+                </div>
+                <div class="post-card"
+                    onclick="window.location.href = 'https://medium.com/design-bootcamp/the-factory-design-pattern-ba150444c8a7';">
+                    <div class="avatar">
+                        <img src="blogs/m.png">
+                    </div>
+                    <a class="title">The Factory Design Pattern</a>
+                    <div class="seting">
+                        <div class="datetime"> 7 min to read</div>
+                        <div class="datetime1"> Publication : Bootcamp</div>
+                    </div>
+                    <div class="image-preview">
+                        <img src="blogs/factory.png">
+                    </div>
+                    <div class="comment-like">
+                        <span>
+                            <?xml version="1.0" ?><svg style="enable-background:new 0 0 24 24;" version="1.1"
+                                viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="info" />
+                                <g id="icons">
+                                    <path
+                                        d="M22.2,4.1c2.7,2.7,2.4,6.9-0.4,9.5l-8.4,7.9c-0.8,0.7-2.1,0.7-2.9,0l-8.4-7.9c-2.7-2.6-3-6.8-0.4-9.5   C4.6,1.4,9.2,1.3,12,4C14.8,1.3,19.4,1.4,22.2,4.1z"
+                                        id="like" />
+                                </g>
+                            </svg>112
+                        </span>
+                        <span class="like">
+                            <?xml version="1.0" ?>
+                            <!DOCTYPE svg
+                                PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
+                                height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1"
+                                viewBox="0 0 512 512" width="512px" xml:space="preserve"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g>
+                                    <path
+                                        d="M447.1,256.2C401.8,204,339.2,144,256,144c-33.6,0-64.4,9.5-96.9,29.8C131.7,191,103.6,215.2,65,255l-1,1l6.7,6.9   C125.8,319.3,173.4,368,256,368c36.5,0,71.9-11.9,108.2-36.4c30.9-20.9,57.2-47.4,78.3-68.8l5.5-5.5L447.1,256.2z M256,336   c-44.1,0-80-35.9-80-80c0-44.1,35.9-80,80-80c44.1,0,80,35.9,80,80C336,300.1,300.1,336,256,336z" />
+                                    <path
+                                        d="M250.4,226.8c0-6.9,2-13.4,5.5-18.8c-26.5,0-47.9,21.6-47.9,48.2c0,26.6,21.5,48.1,47.9,48.1s48-21.5,48-48.1v0   c-5.4,3.5-11.9,5.5-18.8,5.5C266,261.6,250.4,246,250.4,226.8z" />
+                                </g>
+                            </svg>158
+                        </span>
+                        <span>More</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="service-lists">
+                <button class="button buttonSet" onclick="window.location.href = 'blog.html';">
+                    <span class="button_lg">
+                        <span class="button_sl"></span>
+                        <span class="button_text">Load More </span>
+                    </span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- contact me -->
+
+    <div id="contactme" class="box">
+        <section class="contact hidden">
+            <div class="contact-form">
+                <h1>Contact <span class="us">Me</spanc>
+                </h1>
+                <p>I am available for work. Connect with wih me via phone: 01845359479 or
+                    email: sumonta80@gmail.com
+                </p>
+                <form action="https://formspree.io/f/mknabrlj" method="POST">
+                    <input type="name" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="" placeholder="E-mail" required>
+                    <input type="subject" placeholder="Write a Subject" required>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <button class="btn">Submit</button>
+                </form>
+
+            </div>
+            <div class="contact-img">
+                <img class="check" src="images/contact.jpg">
+            </div>
+        </section>
+    </div>
+
+    <!-- contact me -->
+
+
+    <div class="Social box">
+        <div class="wrappeer">
+            <div class="icon facebook" onclick="window.location.href = 'https://www.facebook.com/sumonta.mridul/';">
+                <div class="tooltip">Facebook</div>
+                <span><i class="fab fa-facebook-f"></i> </span>
+            </div>
+            <div class="icon instagram" onclick="window.location.href = 'https://www.instagram.com/_sumonta_saha_/';">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram"></i> </span>
+            </div>
+            <div class="icon twitter" onclick="window.location.href = 'https://twitter.com/sumonta_saha';">
+                <div class="tooltip">Twitter</div>
+                <span><i class="fab fa-twitter"></i> </span>
+            </div>
+            <div class="icon github" onclick="window.location.href = 'https://github.com/Sumonta056';">
+                <div class="tooltip">GitHub</div>
+                <span><i class="fab fa-github"></i> </span>
+            </div>
+            <div class="icon linkedin"
+                onclick="window.location.href = 'https://www.linkedin.com/in/sumonta-saha-mridul-b35bb61a0/';">
+                <div class="tooltip">Linkedin</div>
+                <span><i class="fab fa-linkedin"></i> </span>
+            </div>
+            <div class="icon youtube" onclick="window.location.href = 'https://www.youtube.com/@sumontasaha1624';">
+                <div class="tooltip">YouTube</div>
+                <span><i class="fab fa-youtube"></i> </span>
+            </div>
+
+        </div>
+
+
+
+        <div class="cv box">
+            <button class="button"
+                onclick="window.location.href = 'https://drive.google.com/file/d/1kLgjjzp-QV0_T0wh7G2JMoD9wPOvtpkG/view?usp=sharing';">
+                <span class="button_lg">
+                    <span class="button_sl"></span>
+                    <span class="button_text">Download My CV</span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="follower box">
+        <div class="wrapperpp">
+            <div class="containerpp">
+                <i class="fa-brands fa-instagram"></i>
+                <span class="num" data-val="340">000</span>
+                <span class="text">Instagram Followers</span>
+            </div>
+
+            <div class="containerpp">
+                <i class="fa-brands fa-github"></i>
+                <span class="num" data-val="64">000</span>
+                <span class="text">GitHub Followers</span>
+            </div>
+
+            <div class="containerpp">
+                <i class="fa-brands fa-medium"></i>
+                <span class="num" data-val="33">000</span>
+                <span class="text">Medium Followers</span>
+            </div>
+
+            <div class="containerpp ">
+                <i class="fa-brands fa-linkedin"></i>
+                <span class="num" data-val="648">000</span>
+                <span class="text">Linkedin Followers</span>
+            </div>
+            <div class="containerpp">
+                <i class="fa-brands fa-unsplash"></i>
+                <span class="num" data-val="680">000</span>
+                <span class="text">Unplash Views</span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="follower.js"></script>
+
+
+
+    <div class="end">
+        <p>© 2023 Sumonta Saha Mridul. All rights reserved.</p>
+    </div>
+
+    <script>
+
+        // Select all elements with the "box" class
+        const boxes = document.querySelectorAll('.box');
+
+        // Create a new Intersection Observer
+        const options = {
+            root: null, // use the viewport as the root
+            threshold: 0 // 20% of the element is visible
+        };
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+
+
+
+
+                } else {
+                    entry.target.style.opacity = 0;
+
+
+                }
+            });
+        }, options);
+
+        // Start observing each target element
+        boxes.forEach(box => observer.observe(box));
+
+
+
+    </script>
+
+
+</body>
+
+</html>
