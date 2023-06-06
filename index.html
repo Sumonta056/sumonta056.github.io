@@ -26,7 +26,7 @@
 
     <!-- home function -->
     <div id="header">
-        <div class="container">
+        <div class="container box">
             <nav>
                 <img src="images/cover.png" class="logo" width="200px">
 
@@ -139,13 +139,16 @@
         }
     </script>
 
+
+
+
     <!-- home function -->
 
 
 
 
     <div id="progress">
-        <span id="progress-value" class = "gotoTop">
+        <span id="progress-value" class="gotoTop">
             <?xml version="1.0" ?>
             <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
                 height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1"
@@ -180,9 +183,16 @@
     </script>
 
 
+
+
+
+
+
+
+
     <!-- about section -->
     <div id="about">
-        <div class="containers">
+        <div class="containers box">
             <div class="row">
                 <div class="col-1">
                     <h1 class="sub-title">About Me</h1>
@@ -386,7 +396,7 @@
 
     <!-- Projects section -->
     <div id="projects">
-        <div class="containers">
+        <div class="containers box">
             <h1 class="sub-title">My Projects</h1>
             <div class="service-list">
                 <div>
@@ -583,9 +593,10 @@
 
 
 
+
     <!-- Photographs Section -->
     <div id="projects">
-        <div id="photographs">
+        <div id="photographs" class="box">
             <h1 class="sub-project">Photography</h1>
             <div class="pos_Set">
                 <div class="slider" onclick="window.location.href = 'https://www.instagram.com/_sumonta_saha_/';">
@@ -621,7 +632,7 @@
     <!-- achivements section -->
 
 
-    <div id="Achievements">
+    <div id="Achievements" class="box">
         <h1 class="sub-projects">Achievements</h1>
         <div class="achievement1">
             <div class="cards">
@@ -788,7 +799,7 @@
 
     <!-- blogs -->
     <div id="blogs">
-        <div class="containers">
+        <div class="containers box">
             <h1 class="sub-title gg">My Blogs</h1>
             <div class="services-list">
                 <div class="post-card"
@@ -937,8 +948,8 @@
 
     <!-- contact me -->
 
-    <div id="contactme">
-        <section class="contact">
+    <div id="contactme" class="box">
+        <section class="contact hidden">
             <div class="contact-form">
                 <h1>Contact <span class="us">Me</spanc>
                 </h1>
@@ -963,7 +974,7 @@
     <!-- contact me -->
 
 
-    <div class="Social">
+    <div class="Social box">
         <div class="wrappeer">
             <div class="icon facebook" onclick="window.location.href = 'https://www.facebook.com/sumonta.mridul/';">
                 <div class="tooltip">Facebook</div>
@@ -995,7 +1006,7 @@
 
 
 
-        <div class="cv">
+        <div class="cv box">
             <button class="button"
                 onclick="window.location.href = 'https://drive.google.com/file/d/1kLgjjzp-QV0_T0wh7G2JMoD9wPOvtpkG/view?usp=sharing';">
                 <span class="button_lg">
@@ -1010,6 +1021,39 @@
         <p>© 2023 Sumonta Saha Mridul. All rights reserved.</p>
     </div>
 
+    <script>
+
+        // Select all elements with the "box" class
+        const boxes = document.querySelectorAll('.box');
+
+        // Create a new Intersection Observer
+        const options = {
+            root: null, // use the viewport as the root
+            threshold: 0 // 20% of the element is visible
+        };
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+
+                    
+
+
+                } else {
+                    entry.target.style.opacity = 0;
+
+                  
+                }
+            });
+        }, options);
+
+        // Start observing each target element
+        boxes.forEach(box => observer.observe(box));
+
+
+
+    </script>
 
 
 </body>

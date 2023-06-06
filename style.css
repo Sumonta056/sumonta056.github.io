@@ -18,6 +18,40 @@ html {
 
 }
 
+.box1 {
+  opacity: 0;
+  transition: opacity 2.5s ease;
+  -webkit-transition: opacity 2.5s ease;
+  -moz-transition: opacity 2.5s ease;
+  -ms-transition: opacity 2.5s ease;
+}
+  
+
+.box {
+  opacity: 0;
+  transition: opacity 3.5s ease;
+  -webkit-transition: opacity 3.5s ease;
+  -moz-transition: opacity 3.5s ease;
+  -ms-transition: opacity 3.5s ease;
+  -o-transition: opacity 3.5s ease;
+}
+
+
+@keyframes slideIn1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+  
+
 /* home screen */
 #header {
   width: 100%;
@@ -52,11 +86,15 @@ html {
 
 .container {
   padding: 2px 4%;
+  opacity: 0;
+
 }
 
 .containers {
 
   padding: 2px 4%;
+  opacity: 0;
+  
 
 }
 
@@ -856,6 +894,7 @@ nav .fas {
   -ms-transform: scale();
   -o-transform: scale();
 }
+
 
 
 .position {
@@ -1793,7 +1832,7 @@ form textarea {
 }
 
 
-.gotoTop svg{
+.gotoTop svg {
 
   cursor: pointer;
   height: 40px;
@@ -3354,8 +3393,8 @@ form textarea {
   transform-origin: left;
   background-image: linear-gradient(to right, #539bdb, #bec5dd);
   border-radius: inherit;
-  animation: load 4s 0.25s linear forwards;
-  -webkit-animation: load 4s 0.25s linear forwards;
+  animation: load 6s 0.25s linear forwards;
+  -webkit-animation: load 6s 0.25s linear forwards;
 }
 
 @keyframes fade-in {
