@@ -3540,6 +3540,13 @@ span.text {
   
   }
   
+  span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 2em;
+  }
 
   .wrapperpp .text {
     opacity: 0;
