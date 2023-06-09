@@ -19,8 +19,6 @@ html {
 /* home screen */
 #header {
     width: 100%;
-    background-size: cover;
-    background-position: center;
 
 }
 
@@ -233,47 +231,47 @@ nav .fas {
 }
 
 .card:nth-child(1):hover {
-    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(images/9.jpg);
+    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(../images/9.jpg);
     background-size: cover;
 }
 
 .card:nth-child(2):hover {
-    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(images/9.jpg);
+    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(../images/9.jpg);
     background-size: cover;
 }
 
 .card:nth-child(3):hover {
-    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(images/9.jpg);
+    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(../images/9.jpg);
     background-size: cover;
 }
 
 .card:nth-child(4):hover {
-    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(images/9.jpg);
+    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(../images/9.jpg);
     background-size: cover;
 }
 
 .card:nth-child(5):hover {
-    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(images/9.jpg);
+    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(../images/9.jpg);
     background-size: cover;
 }
 
 .card:nth-child(6):hover {
-    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(images/9.jpg);
+    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(../images/9.jpg);
     background-size: cover;
 }
 
 .card:nth-child(8):hover {
-    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(images/9.jpg);
+    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(../images/9.jpg);
     background-size: cover;
 }
 
 .card:nth-child(9):hover {
-    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(images/9.jpg);
+    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(../images/9.jpg);
     background-size: cover;
 }
 
 .card:nth-child(7):hover {
-    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(images/9.jpg);
+    background: linear-gradient(45deg, rgba(44, 43, 43, 0.8), rgba(146, 133, 137, 0.8)), url(../images/9.jpg);
     background-size: cover;
 }
 
@@ -604,6 +602,8 @@ nav .fas {
 @media only screen and (max-width: 1024px) {
 
 
+
+
     nav .fas {
         display: block;
         font-size: 22px;
@@ -657,7 +657,7 @@ nav .fas {
 
 
         margin-top: -140px;
-        margin-right: 40px;
+        margin-right: 0px;
     }
 
 
@@ -669,76 +669,70 @@ nav .fas {
         width: 100%;
         place-items: center;
         margin-bottom: 100px;
-        padding: 10px;
+        padding: 0px;
 
     }
-
-
-
-
-
-    section {
-        padding: 30px;
-        box-sizing: border-box;
-    }
-
 
 
     .sub-title {
-        padding-left: 10px;
+        padding-left: 0px;
     }
 
-    .end {
-
-        font-size: 12px;
-
-    }
-
-    .wrapper {
-        padding: 25px;
-    }
+  
 
     .wrapper h1 {
         font-size: 2.5em;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     .conten-box {
         flex-direction: column;
+        flex-wrap: nowrap;
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .card {
-        min-width: 300px;
-     
-        margin: 10px auto;
+        
+        
+        padding-top: 30px;
+        padding-bottom: 30px;
+        /* margin: 5px -5px; */
     }
+
+    .card {
+        border-radius: 1px;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        -ms-border-radius: 1px;
+        -o-border-radius: 1px;
+        background-color: #6d6a6a52;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 1px 1px;
+        box-shadow: 0 1px 1px rgba(85, 83, 83, 0.2);
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+}
     
 
-
-
-
-    .Social {
-
-        display: grid;
-        height: 100%;
-        width: 100%;
-        place-items: center;
-        margin-bottom: 100px;
-        padding: 10px;
-
-    }
 
     .wrappeer {
 
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
+        grid-gap: 12px;
     }
 
 
     .end {
-        font-size: 14px;
+        font-size: 12px;
     }
 
 
