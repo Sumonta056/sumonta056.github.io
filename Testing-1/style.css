@@ -16,7 +16,7 @@ body {
 
 /* --- Start progress bar --- */
 
-.process-wrapper {
+.process-wrapperd {
     margin: auto;
     max-width: 1080px;
     margin-bottom: 50px;
@@ -197,7 +197,7 @@ body {
 }
 
 
-.wrapper {
+.wrapperd {
     position: relative;
     width: 800px;
     display: flex;
@@ -208,7 +208,7 @@ body {
     margin-bottom: 40px;
 }
 
-.wrapper .card {
+.wrapperd .carded {
     position: relative;
     background: #fff;
     width: calc(33% - 20px);
@@ -221,7 +221,7 @@ body {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
-.wrapper .card .circle {
+.wrapperd .carded .circle {
     position: relative;
     height: 150px;
     width: 150px;
@@ -229,14 +229,14 @@ body {
     cursor: default;
 }
 
-.card .circle .box,
-.card .circle .box span {
+.carded .circle .box,
+.carded .circle .box span {
     position: absolute;
     top: 50%;
     left: 50%;
 }
 
-.card .circle .box {
+.carded .circle .box {
     height: 100%;
     width: 100%;
     background: #fff;
@@ -245,12 +245,12 @@ body {
     transition: all 0.2s;
 }
 
-.card .circle:hover .box {
+.carded .circle:hover .box {
     transform: translate(-50%, -50%) scale(0.91);
 }
 
-.card .circle .box span,
-.wrapper .card .text {
+.carded .circle .box span,
+.wrapperd .carded .text {
     background: -webkit-linear-gradient(left, #CD1818, #77037B);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -268,33 +268,33 @@ body {
     transition: all 0.1s;
 }
 
-.card .circle:hover .box span {
+.carded .circle:hover .box span {
     transform: translate(-45%, -45%) scale(1.09);
 }
 
-.card .text {
+.carded .text {
     font-size: 20px;
     font-weight: 600;
 }
 
 @media(max-width: 753px) {
-    .wrapper {
+    .wrapperd {
         max-width: 700px;
     }
 
-    .wrapper .card {
+    .wrapperd .carded {
         width: calc(50% - 20px);
         margin-bottom: 20px;
     }
 }
 
 @media(max-width: 505px) {
-    .wrapper {
+    .wrapperd {
         max-width: 500px;
         margin-top: 700px;
     }
 
-    .wrapper .card {
+    .wrapperd .carded {
         width: 100%;
     }
     .h1 {
