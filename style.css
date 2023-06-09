@@ -2081,7 +2081,7 @@ form textarea {
   #projects {
 
     position: relative;
-    margin-top: 370px;
+    padding-top: 20px;
 
 }
 
@@ -3884,17 +3884,17 @@ span.text {
 }
 
 @media(max-width: 753px) {
-    .wrapperd {
-        max-width: 700px;
-    }
 
-    .wrapperd .carded {
-        width: calc(50% - 20px);
-        margin-bottom: 20px;
-    }
+   .h1s{
+     display: none;
+   }
+
+   .process-wrapperd{
+    display:none;
+   }
 }
 
-@media(max-width: 505px) {
+/* @media(max-width: 505px) {
 
     .process-wrapperd {
         position: relative;
@@ -3968,4 +3968,4 @@ span.text {
 
 
 
-}
+} */
