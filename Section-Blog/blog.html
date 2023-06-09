@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Sumonta's Portfolio</title>
-    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="icon" href="../images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,17 +26,17 @@
     <div id="header">
         <div class="container box">
             <nav>
-                <img src="images/cover.png" class="logo" width="200">
+                <img src="../images/cover.png" class="logo" width="200">
 
                 <ul id="sidemenu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#projects">Projects</a></li>
-                    <li><a href="photography.html">Photographs</a></li>
-                    <li><a href="index.html#Achievements">Achievements</a></li>
-                    <li><a href="blog.html">Blogs</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="index.html#contactme">Contact</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="../index.html#projects">Projects</a></li>
+                    <li><a href="../Section-Photo/photography.html">Photographs</a></li>
+                    <li><a href="../index.html#Achievements">Achievements</a></li>
+                    <li><a href="../Section-Blog/blog.html">Blogs</a></li>
+                    <li><a href="../Section-Service/service.html">Services</a></li>
+                    <li><a href="../index.html#contactme">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -45,17 +45,10 @@
         </div>
 
 
-
-
-
-
-
-
-
         <div id="head">
             <div class="container box">
                 <div class="head-content">
-                    <img src="blogs/head.png">
+                    <img src="../blogs/head.png">
                 </div>
             </div>
         </div>
@@ -98,7 +91,7 @@
         </div>
 
 
-       
+
 
 
         <div class="Social box">
@@ -145,7 +138,7 @@
         </div>
     </div>
 
-    <script>
+    <!-- <script>
         var sidemenu = document.getElementById("sidemenu");
 
         function openmenu() {
@@ -154,7 +147,9 @@
         function closemenu() {
             sidemenu.style.right = "-250px";
         }
-    </script>
+    </script> -->
+
+    <script src="menu.js"></script>
 
 
     <div id="progress">
@@ -169,7 +164,7 @@
             </svg>
         </span>
     </div>
-    <script>
+    <!-- <script>
         let calcScrollValue = () => {
             let scrollProgress = document.getElementById("progress");
             let progressValue = document.getElementById("progress-value");
@@ -190,7 +185,9 @@
         };
         window.onscroll = calcScrollValue;
         window.onload = calcScrollValue;
-    </script>
+    </script> -->
+
+    <script src="Scroll-Top.js"></script>
 
     <!-- home function -->
 
@@ -201,13 +198,13 @@
             <div class="service-list">
                 <div class="post-card box " card"
                     onclick="window.location.href = 'https://medium.com/@sumontasaha80/first-hackathon-experience-and-some-tips-for-beginners-945063ae8e66';">
-                    <div class="avatar"><img src="blogs/m.png"></div>
+                    <div class="avatar"><img src="../blogs/m.png"></div>
                     <a class="title" href="#">First Hackathon Experience and Some Tips for Beginners</a>
                     <div class="seting">
                         <div class="datetime"> 11 min to read</div>
                         <div class="datetime1"> Publication : None</div>
                     </div>
-                    <div class="image-preview"><img src="blogs/1.jpg"></div>
+                    <div class="image-preview"><img src="../blogs/1.jpg"></div>
                     <div class="comment-like">
                         <span>
                             <?xml version="1.0" ?><svg style="enable-background:new 0 0 24 24;" version="1.1"
@@ -243,13 +240,13 @@
 
                 <div class="post-card box"
                     onclick="window.location.href = 'https://medium.com/@sumontasaha80/solid-principles-the-key-to-writing-clean-high-quality-code-9a8f88ea0a8';">
-                    <div class="avatar"><img src="blogs/m.png"></div>
+                    <div class="avatar"><img src="../blogs/m.png"></div>
                     <a class="title">SOLID Principles: The Key to Writing Clean & High-Quality Code</a>
                     <div class="seting">
                         <div class="datetime"> 11 min to read</div>
                         <div class="datetime1"> Publication : Nerd For Tech</div>
                     </div>
-                    <div class="image-preview"><img src="blogs/2.png"></div>
+                    <div class="image-preview"><img src="../blogs/2.png"></div>
                     <div class="comment-like">
                         <span>
                             <?xml version="1.0" ?><svg style="enable-background:new 0 0 24 24;" version="1.1"
@@ -285,7 +282,7 @@
                 <div class="post-card box"
                     onclick="window.location.href = 'https://medium.com/gitconnected/learn-flexbox-in-css-6ca1165c2a64';">
                     <div class="avatar">
-                        <img src="blogs/m.png">
+                        <img src="../blogs/m.png">
                     </div>
                     <a class="title">"Learn “Flexbox” in CSS</a>
                     <div class=" seting">
@@ -293,7 +290,7 @@
                         <div class="datetime1"> Publication : Level Up Coding</div>
                     </div>
                     <div class="image-preview">
-                        <img src="blogs/flexbox2.png">
+                        <img src="../blogs/flexbox2.png">
                     </div>
                     <div class="comment-like">
                         <span>
@@ -329,7 +326,7 @@
                 <div class="post-card box"
                     onclick="window.location.href = 'https://medium.com/design-bootcamp/the-factory-design-pattern-ba150444c8a7';">
                     <div class="avatar">
-                        <img src="blogs/m.png">
+                        <img src="../blogs/m.png">
                     </div>
                     <a class="title">The Factory Design Pattern</a>
                     <div class="seting">
@@ -337,7 +334,7 @@
                         <div class="datetime1"> Publication : Bootcamp</div>
                     </div>
                     <div class="image-preview">
-                        <img src="blogs/factory.png">
+                        <img src="../blogs/factory.png">
                     </div>
                     <div class="comment-like">
                         <span>
@@ -374,7 +371,7 @@
                 <div class="post-card box"
                     onclick="window.location.href = 'https://medium.com/@sumontasaha80/things-to-know-about-http-caching-ef0f26f9735e';">
                     <div class="avatar">
-                        <img src="blogs/m.png">
+                        <img src="../blogs/m.png">
                     </div>
                     <a class="title">Things to Know About HTTP Caching</a>
                     <div class="seting">
@@ -382,7 +379,7 @@
                         <div class="datetime1"> Publication : Nerd For Tech</div>
                     </div>
                     <div class="image-preview">
-                        <img src="blogs/cache.png">
+                        <img src="../blogs/cache.png">
                     </div>
                     <div class="comment-like">
                         <span>
@@ -419,13 +416,13 @@
 
                 <div class="post-card box"
                     onclick="window.location.href = 'https://medium.com/@sumontasaha80/some-tips-for-using-chatgpt-efficiently-19adb04119b2';">
-                    <div class="avatar"><img src="blogs/m.png"></div>
+                    <div class="avatar"><img src="../blogs/m.png"></div>
                     <a class="title">Some Tips for Using ChatGPT Efficiently</a>
                     <div class="seting">
                         <div class="datetime"> 11 min to read</div>
                         <div class="datetime1"> Publication : None</div>
                     </div>
-                    <div class="image-preview"><img src="blogs/3.jpg"></div>
+                    <div class="image-preview"><img src="../blogs/3.jpg"></div>
                     <div class="comment-like">
                         <span>
                             <?xml version="1.0" ?><svg style="enable-background:new 0 0 24 24;" version="1.1"
@@ -460,13 +457,13 @@
 
                 <div class="post-card box"
                     onclick="window.location.href = 'https://medium.com/@sumontasaha80/basic-things-about-http-cookies-1c1290f31f7b';">
-                    <div class="avatar"><img src="blogs/m.png"></div>
+                    <div class="avatar"><img src="../blogs/m.png"></div>
                     <a class="title" href="#">Basic Things About HTTP Cookies and How It Works</a>
                     <div class="seting">
                         <div class="datetime"> 11 min to read</div>
                         <div class="datetime1"> Publication : None</div>
                     </div>
-                    <div class="image-preview"><img src="blogs/11.jpg"></div>
+                    <div class="image-preview"><img src="../blogs/11.jpg"></div>
                     <div class="comment-like">
                         <span>
                             <?xml version="1.0" ?><svg style="enable-background:new 0 0 24 24;" version="1.1"
@@ -501,7 +498,7 @@
                 <div class="post-card box"
                     onclick="window.location.href = 'https://medium.com/@sumontasaha80/basic-things-to-know-about-http-and-https-c50e64e27a1d';">
                     <div class="avatar">
-                        <img src="blogs/m.png">
+                        <img src="../blogs/m.png">
                     </div>
                     <a class="title">Basic Things to know about HTTP and HTTPS</a>
                     <div class="seting">
@@ -509,7 +506,7 @@
                         <div class="datetime1"> Publication : None</div>
                     </div>
                     <div class="image-preview">
-                        <img src="blogs/back3.png">
+                        <img src="../blogs/back3.png">
                     </div>
                     <div class="comment-like">
                         <span>
@@ -548,7 +545,7 @@
                 <div class="post-card box"
                     onclick="window.location.href = 'https://medium.com/@sumontasaha80/a-simple-introduction-to-cross-origin-resource-sharing-cors-d93c24b6517b';">
                     <div class="avatar">
-                        <img src="blogs/m.png">
+                        <img src="../blogs/m.png">
                     </div>
                     <a class="title">A Simple Introduction to Cross-Origin Resource Sharing (CORS)</a>
                     <div class="seting">
@@ -556,7 +553,7 @@
                         <div class="datetime1"> Publication : None</div>
                     </div>
                     <div class="image-preview">
-                        <img src="blogs/cors.png">
+                        <img src="../blogs/cors.png">
                     </div>
                     <div class="comment-like">
                         <span>
@@ -593,7 +590,7 @@
                 <div class="post-card box"
                     onclick="window.location.href = 'https://medium.com/@sumontasaha80/from-http-0-9-to-http-3-the-evolution-of-the-internets-backbone-76ef42d0eb77';">
                     <div class="avatar">
-                        <img src="blogs/m.png">
+                        <img src="../blogs/m.png">
                     </div>
                     <a class="title">From HTTP/0.9 to HTTP/3: The Evolution of HTTP</a>
                     <div class="seting">
@@ -601,7 +598,7 @@
                         <div class="datetime1"> Publication : None</div>
                     </div>
                     <div class="image-preview">
-                        <img src="blogs/evalu.png">
+                        <img src="../blogs/evalu.png">
                     </div>
                     <div class="comment-like">
                         <span>
@@ -638,7 +635,7 @@
                 <div class="post-card box"
                     onclick="window.location.href = 'https://medium.com/@sumontasaha80/things-to-know-about-http-caching-ef0f26f9735e';">
                     <div class="avatar">
-                        <img src="blogs/m.png">
+                        <img src="../blogs/m.png">
                     </div>
                     <a class="title">The Singleton Design Pattern</a>
                     <div class="seting">
@@ -646,7 +643,7 @@
                         <div class="datetime1"> Publication : None</div>
                     </div>
                     <div class="image-preview">
-                        <img src="blogs/single.png">
+                        <img src="../blogs/single.png">
                     </div>
                     <div class="comment-like">
                         <span>
@@ -686,7 +683,7 @@
         </div>
     </div>
 
-    <script src="follower.js"></script>
+    <script src="blog.js"></script>
 
     <!-- <div class="profile">
         <div class="container">

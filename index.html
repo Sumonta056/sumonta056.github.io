@@ -39,10 +39,10 @@
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="photography.html">Photographs</a></li>
+                    <li><a href="Section-Photo/photography.html">Photographs</a></li>
                     <li><a href="#Achievements">Achievements</a></li>
-                    <li><a href="blog.html">Blogs</a></li>
-                    <li><a href="Service-Section/service.html">Services</a></li>
+                    <li><a href="Section-Blog/blog.html">Blogs</a></li>
+                    <li><a href="Section-Service/service.html">Services</a></li>
                     <li><a href="#contactme">Contact</a></li>
 
                     <i class="fas fa-times" onclick="closemenu()"></i>
@@ -133,24 +133,9 @@
         </div>
     </div>
 
-    <script>
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu() {
-            sidemenu.style.right = "0px";
-        }
-        function closemenu() {
-            sidemenu.style.right = "-250px";
-        }
-    </script>
-
-
-
+    <script src="Section-Home/menu.js"></script>
 
     <!-- home function -->
-
-
-
 
     <div id="progress">
         <span id="progress-value" class="gotoTop">
@@ -164,35 +149,7 @@
             </svg>
         </span>
     </div>
-    <script>
-        let calcScrollValue = () => {
-            let scrollProgress = document.getElementById("progress");
-            let progressValue = document.getElementById("progress-value");
-            let pos = document.documentElement.scrollTop;
-            let calcHeight =
-                document.documentElement.scrollHeight -
-                document.documentElement.clientHeight;
-            let scrollValue = Math.round((pos * 100) / calcHeight);
-            if (pos > 100) {
-                scrollProgress.style.display = "grid";
-            } else {
-                scrollProgress.style.display = "none";
-            }
-            scrollProgress.addEventListener("click", () => {
-                document.documentElement.scrollTop = 0;
-            });
-            scrollProgress.style.background = `conic-gradient(#05BFDB ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
-        };
-        window.onscroll = calcScrollValue;
-        window.onload = calcScrollValue;
-    </script>
-
-
-
-
-
-
-
+    <script src="Section-Home/Scroll-Top.js"></script>
 
 
     <!-- about section -->
@@ -622,7 +579,7 @@
             </div>
 
             <div class="service-lists follow">
-                <button class="button buttonSet" onclick="window.location.href = 'photography.html';">
+                <button class="button buttonSet" onclick="window.location.href = 'Section-Photo/photography.html';">
                     <span class="button_lg">
                         <span class="button_sl"></span>
                         <span class="button_text">Load More </span>
@@ -939,7 +896,7 @@
 
             </div>
             <div class="service-lists">
-                <button class="button buttonSet" onclick="window.location.href = 'blog.html';">
+                <button class="button buttonSet" onclick="window.location.href = 'Section-Blog/blog.html';">
                     <span class="button_lg">
                         <span class="button_sl"></span>
                         <span class="button_text">Load More </span>
@@ -1061,7 +1018,7 @@
     </div>
 
 
-    <script src="follower.js"></script>
+    <script src="Section-Home/animation.js"></script>
 
 
 
