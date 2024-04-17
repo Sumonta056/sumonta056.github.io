@@ -18,6 +18,11 @@ html {
 
 }
 
+.newprofile{
+  color : yellow;
+  border : 2px solid;
+  padding : 10px;
+}
 
 
 .box {
@@ -3969,3 +3974,6 @@ span.text {
 
 
 } */
+
+
+
